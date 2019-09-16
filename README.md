@@ -4,7 +4,7 @@ We are at the golden age of team efficiency. I believe that companies focusing o
 
 This is where I come in. I love helping companies improve their culture and way of working. My specialty is meshing into existing teams and taking the role of someone who does anything from pair-programming to agile coaching.
 
-My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I can be a great addition to any team that wants to learn the ways of DevOps Thinking and Lean UX.
+My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I am a great addition to any team that wants to learn the ways of DevOps Thinking and Lean UX.
 
 ## Experience
 
