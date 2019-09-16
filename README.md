@@ -1,4 +1,4 @@
-# My urriculum-vitae
+# My curriculum-vitae
 
 We are at the golden age of team efficiency. I believe that companies focusing on making their employees experts at cooperation and autonomy are the companies that will thrive in the future.
 
