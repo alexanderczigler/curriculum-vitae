@@ -1,10 +1,10 @@
 # My urriculum-vitae
 
-I love helping companies and individuals improve code and culture.
+We are at the golden age of team efficiency. I believe that companies focusing on making their employees experts at cooperation and autonomy are the companies that will thrive in the future.
 
-Having years of experience as a system developer and consultant I have a good understanding of the challenges that arise when codebases grow and age, or when something new needs to rely on old legacy systems. I also have experience transforming waterfall/scrum teams into agile teams working according to the three ways of devops.
+This is where I come in. I love helping companies improve their culture and way of working. My specialty is meshing into existing teams and taking the role of someone who does anything from pair-programming to agile coaching.
 
-I can coach teams and people how to approach better ways of working, while meshing into the team as a any other developer.
+My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I can be a great addition to any team that wants to learn the ways of DevOps Thinking and Lean UX.
 
 ## Experience
 
