@@ -101,9 +101,7 @@ During these years I did various small projects, some free and some paid. The ma
 
 ### DevOps Technologies
 
-> Docker, Docker Swarm, Kubernetes
-
-> RedHat OpenShift, Amazon EKS, ContainerShip, Docker Enterprise
+> Docker, Docker Swarm, Kubernetes, RedHat OpenShift, Amazon EKS, ContainerShip, Docker Enterprise, Digital Ocean
 
 ### System Development
 
@@ -111,11 +109,7 @@ During these years I did various small projects, some free and some paid. The ma
 
 ### OS
 
-> Linux (Arch, CentOS, debian)
-
-> Unix (MacOS X, FreeBSD)
-
-> Windows/Windows Server
+> Arch Linux, CentOS, debian, FreeBSD, MacOS X, Windows, Windows Server
 
 ### Methodologies
 
