@@ -8,75 +8,131 @@ My long background as a system developer has given me a lot of insights as to wh
 
 ## Experience
 
-### Code, Devops and NoEstimates mentor at Iteam Solutions
+### UX Researcher (TRR Trygghetsrådet) 2019 - 2019
 
-*Feb 2013 - -*
+Helping TRR understand their role in the Swedish job market and how they can maximize their impact and presence among their customers.
+> UX research, Lean UX
 
-At Iteam I have been on a constant journey filled with varying projects and experiences. I started off in 2013 doing backend development in .NET. During the years I have slowly progressed onto learning node.js, devops (aws, opsworks, docker) and getting deeper into linux as well as the fun art of mentoring other developers. 
+### DevOps Engineer (JobTech) 2019 - 2019
 
-The mentoring part is the most rewarding and enjoyable thing I have ever done. I have a burning passion for lean development and devops and I love teaching others about the benefits of those two aspects.
+Implementation of CI/CD pipelines, automatic builds, automatic testing etc. for the JobTech MyData project.
+> Docker, Kubernetes, PostgreSQL, Jenkins, OpenShift
 
-In every project at Iteam we strive to form a close, functional team together with key people from our customer's organisation. This enables us to work together unhindered and produce as much value as possible for the customer.
+### System Developer (Motorbranschens Riksförbund) 2018 - ongoing
 
-Methods: MVP, lean, kanban, no-estimates
-System development; Node.JS, .NET, dotnet core
-Release pipeline && DevOps; AWS, azure, digital ocean, docker, linux
+Design, research and development of a new web-based system for workshops repairing cars and billing insurance companies. The challenges of this project include supporting all legal requirements of GDPR, bookkeeping law and building a system with the end user in focus.
+> Nodejs, PostgreSQL, UX Research, Lean UX, AWS EKS, Kubernetes
 
-#### DevOps and Agile mentoring at SEB (Iteam consultant)
+### Technical Advisor & Agile Coach (SEB) 2017 - 2019
 
-*Apr 2017 - Jan 2019*
+Working as part of one of SEB’s development teams to learn and teach alongside with their developers and help them overcome organisational obstacles and adopt better ways of working with system development.
+Working with a cross team implementing Docker Enterprise with Docker for Windows nodes. SEB was one of the first customers to run docker on Windows Server at their scale.
+> Microsoft .NET, dotnet core, javascript, docker, docker swarm, kubernetes, Docker Enterprise, agile coaching, DevOps Thinking
 
-At SEB I worked alongside some of SEB's developers helping them implement new methodologies as well as container technology using Docker, Docker Swarm, OpenShift and dotnet core.
+### Advisor (Uppdragshuset) 2015 - 2016
 
-I acted as both a technical mentor and an agile coach. I did pair-programming with developers as well as giving middle and high level managers new insights into what SEB should do differently.
+Technical advisor working closely with two of Uppdragshuset’s senior developers in their initiative to adopt Docker and radically change their development flow.
 
-#### Tech lead, DevOps engineer at Vimla (Iteam consultant)
+> Docker, Docker Cloud
 
-*Jan 2014 - Jan 2018*
+### DevOps Engineer & System Developer (Taxi Stockholm AB) 2015 - 2017
 
-I began working with Vimla when they were still sketching the ideas for what would be a very successful fighter brand. The journey from the first to way over 100 000 subscribers was very exciting and taught me a lot.
+Played a role in the creation and setup of TSAB’s cloud orchestrated Docker environment with Docker cloud and Microsoft Azure.
 
-I added a lot of technical competence to the team, building, rebuilding and maintaining their public web, public API and other tools used by both subscribers and the Vimla staff themselves.
+Development of data mining and market automation applications using node.js to process and transfer data from MySQL and Oracle DB to no-sql databases (RethinkDB and ElasticSearch).
 
-#### Senior Developer at Taxi Stockholm (Iteam consultant)
+Development of a RESTful API in node.js, integrations with SOAP API:s, Oracle DB and RPC backends.
 
-*Aug 2015 - Mar 2017*
+> Microsoft .NET, nodejs, legacy API:s, MySQL, Oracle DB, Microsoft Azure, docker cloud, RethinkDB, ElasticSearch
 
-Backend development -- REST API, customer loyalty and business intelligence applications., devops. 
+### System Developer & DevOps Engineer (Vimla) 2014 - 2018
 
-Node.JS, docker, docker cloud, azure
+Developer and technical advisor for Vimla’s website/customer portal (.NET), REST API (nodejs) and community platform (nodebb).
 
-### System Developer at Mogul
+Integrations with SOAP APIs, Lithium and payment providers DIBS and Klarna. Moved the project over from TFS to Git and TeamCity, improving the development workflow and ability to handle branches and isolated features. Setup continuous integration workflow from GitHub to Docker Cloud.
 
-*Aug 2010 - Feb 2013*
+Responsible for the setup and maintenance of their linux-based servers running Docker.
 
-Lead developer, .NET, SQL Server, business intelligence, continuous integration.
+> Microsoft .NET, nodejs, docker swarm, legacy API:s, Linux (centos)
 
-#### Developer at TV4-Gruppen (Mogul consultant)
+### System Developer (Sound-Ideas) 2013 - 2018
 
-*Aug 2010 - Feb 2013*
+Development of Sound-Ideas’ e-commerce platforms (StockMusic.com and WestarMusic.com) where they sell audio and sound effects for use on radio, television etc. 
 
-During my time at Mogul I worked as a consultant at TV4 Gruppen where I was responsible for development and maintenance of their CRM and sales support system. The system handles the sales of most of TV4's advertising and is thus responsible for the bulk of their yearly income.
+> Microsoft .NET, SQL Server, Windows Server, audio conversion, ffmpeg
 
-The technical solution was very complex, spanning over ten years of dotnet technologies ranging from traditional ASP to dotnet 4, sql server and a handful of different types of automatic integrations to other systems.
+### System Developer (TRR Trygghetsrådet/Startkraft) 2013 - 2015
 
-Apart from coding and building the system I was also responsible for onboarding new developers to the team every now and then and mentoring them until they became self sufficient.
+Developer and responsible for a web based system where available jobs are matched with job seeking clients at Trygghetsrådet and Startkraft. Moved code from TFS to self-hosted GIT and TeamCity.
 
-### System Developer at Pdb DataSystem AB (formerly Hitone Nordic AB)
+> Microsoft .NET, SQL Server, ElasticSearch, SOAP
 
-Designed and built BI reports and applications. 
+### System Developer & Tech Lead (TV4 Gruppen) 2010 - 2013
 
-Worked close with customer's ERP teams, defining current and future needs in their organisations.
+Developer and tech lead for TV4’s sales support system called “L4”. The system is used daily by all of their sales staff working with the clients purchasing air time for their advertisements. L4 handles a lot of figures and numbers that ultimately turn into the bulk of their monetary income. Very high expectancy on reliability and uptime. Several integrations with other systems.
 
-Some of the customers were: Getinge Group, Assa, Atlas Copco, Panasonic Europe, Panasonic Nordic, Toyota Material Handling.
+> Microsoft .NET, SQL Server
+
+### Business Intelligence Developer (Atlas Copco) 2008 - 2010
+
+Development of reports and BI support applications.
+
+> Lawson M3, DataSet Vision
+
+### Business Intelligence Consultant (Getinge) 2008 - 2010
+
+Development of reports and a system for calculating prices on Getinge’s spare parts with regard to their accessibility on the market.
+
+> Microsoft .NET, Lawson M3, DataSet Vision
+
+### Embedded Systems Developer (Dovado) 2008
+
+Development of the linux-based Dovado routers that supported 3G USB dongles used by various Swedish operators.
+
+> Shell script, ash, linux (busybox)
+
+### Freelance (various) 2003 - 2008
+
+During these years I did various small projects, some free and some paid. The majority of them consisted of web design and simple static or dynamic web sites. In addition to that I also worked on hosting various types of servers, including web and chat servers.
+
+> FreeBSD, Linux, Windows Server, apache, nginx, ircd, jabberd, ftpd
+
+## Areas of expertise
+
+### DevOps Technologies
+
+> Docker, Docker Swarm, Kubernetes
+> RedHat OpenShift, Amazon EKS, ContainerShip, Docker Enterprise
+
+### System Development
+
+> Microsoft .NET, dotnet core, nodejs, bash
+
+### OS
+
+> Linux (Arch, CentOS, debian)
+> Unix (MacOS X, FreeBSD)
+> Windows/Windows Server
+
+### Methodologies
+
+> CI/CD, DevOps Thinking, Lean UX, Lean, NoEstimates, Kanban, TDD, BDD, Scrum
+
+### Language skills
+
+> Fluent English and Swedish.
 
 ## Volunteer Experience
 
-### Refugee Tech
+### Tech (Urban Girls Movement) 2019
 
-*Feb 2016 - Dec 2017*
+I helped UGM by exporting their Minecraft model of Fittja Centrum for Sketchfab and 3D printing.
 
-Starting at a hackathon that Refugee Tech held me and a few coworkers created *Competency*. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden. 
+> Minecraft, Mineways, Sketchfab
+
+### Developer & Co-Inventor (Refugee Tech) 2016 - 2017
+
+Starting at a hackathon that Refugee Tech held me and a few coworkers created “Competency”. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden.
 
 The data is meant to be used to show meda, politicians and the Swedish population that refugees have a lot of competence and talent that Sweden should utilize. In conjunction with a job search engine it can also be used to match individuals with available jobs and employers looking for talent.
 
