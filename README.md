@@ -25,6 +25,11 @@ My long background as a system developer has given me a lot of insights as to wh
 
 ### Experience
 
+#### System Developer (V3VO - Vertical Evolution) 2019 - 2020
+
+Architecture and development of a REST API from scratch. The API serves as backend to V3VO’s apps/web applications and holds customer data, business logic and JWT-validation. The solution is orchestrated using kubernetes where the API, PostgreSQL and web applications are run and monitored. User authentication is done using Auth0 (JWKS).
+> Nodejs, PostgreSQL, Kubernetes, linux, Expo, Auth0, JWT, Digital Ocean
+
 #### UX Researcher (TRR Trygghetsrådet) 2019 - 2019
 
 Helping TRR understand their role in the Swedish job market and how they can maximize their impact and presence among their customers.
@@ -35,7 +40,7 @@ Helping TRR understand their role in the Swedish job market and how they can max
 Implementation of CI/CD pipelines, automatic builds, automatic testing etc. for the JobTech MyData project.
 > Docker, Kubernetes, PostgreSQL, Jenkins, OpenShift
 
-#### System Developer (Motorbranschens Riksförbund) 2018 - ongoing
+#### System Developer (Motorbranschens Riksförbund) 2018 - 2020
 
 Design, research and development of a new web-based system for workshops repairing cars and billing insurance companies. The challenges of this project include supporting all legal requirements of GDPR, bookkeeping law and building a system with the end user in focus.
 > Nodejs, PostgreSQL, UX Research, Lean UX, AWS EKS, Kubernetes
