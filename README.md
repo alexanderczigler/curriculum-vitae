@@ -17,7 +17,7 @@ My name is Alexander and I have over ten years experience working as an IT consu
 
 ### Introduction
 
-We are at the golden age of team efficiency. I believe that companies who want to thrive in the future need to make their employees experts at cooperation and autonomy.
+We are at the golden age of team efficiency. I firmly believe that companies who want to thrive in the future need to make their employees experts at cooperation and autonomy.
 
 This is where I come in; I love using my technical experience to help improve the culture and way of working. My specialty is meshing into existing teams and taking a blended role helping out where I am needed most from day to day; be it pair-programming, agile coaching or UX research.
 
