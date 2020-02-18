@@ -2,15 +2,26 @@
 
 My name is Alexander and I have over ten years experience working as an IT consultant in Stockholm, Sweden. My experience ranges from system development, technical troubleshooting and operations to agile coaching, mentoring and DevOps culture.
 
+## Links
+
+- [GitHub Profile](https://github.com/alexanderczigler)
+- [Iteam Solutions](https://iteam.se/medarbetare/acr) (My place of work)
+- [Goodreads](https://www.goodreads.com/review/list/53571813-alexander?shelf=read)
+
+### Mentions
+
+- [AI-Billgren](http://www.ahousestockholm.com/ai-billgren-talk-with-christian-landgren/)
+- [Egendata](https://egendata.se/om-oss/)
+
 ## Curriculum Vitae
 
 ### Introduction
 
-We are at the golden age of team efficiency. I believe that companies focusing on making their employees experts at cooperation and autonomy are the companies that will thrive in the future.
+We are at the golden age of team efficiency. I believe that companies who want to thrive in the future need to make their employees experts at cooperation and autonomy.
 
-This is where I come in. I love helping companies improve their culture and way of working. My specialty is meshing into existing teams and taking the role of someone who does anything from pair-programming to agile coaching.
+This is where I come in; I love using my technical experience to help improve the culture and way of working. My specialty is meshing into existing teams and taking a blended role helping out where I am needed most from day to day; be it pair-programming, agile coaching or UX research.
 
-My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I am a great addition to any team that wants to learn the ways of DevOps Thinking and Lean UX.
+My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I am a great addition to any team that wants to identify bottlenecks, have fun and learn the ways of DevOps Thinking and Lean UX.
 
 ### Experience
 
