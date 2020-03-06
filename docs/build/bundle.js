@@ -350,86 +350,218 @@ var app = (function () {
         {
           meta: {
             customer: 'TV4 Gruppen',
-            origin: 'Mogul consultant',
+            origin: 'Mogul',
             body: 'I was part of a team repsonsible for development and maintenance of TV4\'s sales support system "L4".',
-          },
-          location: {
-            city: 'Stockholm',
-            country: 'Sweden',
+            start: 2010,
+            end: 2013,
           },
           tags: [
             '.NET',
             'SQL Server',
             'CI',
           ],
-          chronology: {
-            start: 2010,
-            end: 2013,
-          },
         },
-      ],
-      Positions: [
         {
-          employment: {
-            employer: 'Iteam Solutions',
-            title: 'Code, DevOps and NoEstimates Mentor',
-            body: 'At Iteam I started working as a system developer and focusing on .NET. During my time here we have shifted from .NET towards javascript and node. I have also grown a lot in my role; learning about DevOps culture, docker, kubernetes, UX research and mentoring.',
-          },
-          location: {
-            city: 'Stockholm',
-            country: 'Sweden',
+          meta: {
+            customer: 'JobTech',
+            origin: 'Iteam',
+            body: 'Implementation of CI/CD pipelines, automatic builds, automatic testing etc. for the JobTech MyData project.',
+            start: 2019,
+            end: 2019,
           },
           tags: [
             'docker',
             'kubernetes',
-            'javascript',
-            'lean',
-            'ux',
+            'openshift',
+            'linux',
+            'postgresql',
+            'jenkins',
           ],
-          chronology: {
+        },
+        {
+          meta: {
+            customer: 'V3VO - Vertical Evolution',
+            origin: 'Iteam',
+            body: 'Architecture and development of a REST API from scratch. The API serves as backend to V3VO’s apps/web applications and holds customer data, business logic and JWT-validation. The solution is orchestrated using kubernetes where the API, PostgreSQL and web applications are run and monitored. User authentication is done using Auth0 (JWKS).',
+            start: 2019,
+            end: 2020,
+          },
+          tags: [
+            'docker',
+            'kubernetes',
+            'openshift',
+            'linux',
+            'postgresql',
+            'expo',
+            'auth0',
+            'node',
+            'jwt',
+          ],
+        },
+        {
+          meta: {
+            customer: 'TRR Trygghetsrådet',
+            origin: 'Iteam',
+            body: 'Helping TRR understand their role in the Swedish job market and how they can maximize their impact and presence among their customers. I work with UX research, planning and participating in design sprints as well as doing interviews with customers to gather qualitative data.',
+            start: 2019,
+            end: 2020,
+          },
+          tags: [
+            'ux research',
+            'design sprint',
+            'double diamond',
+            'agile coaching',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Motorbranschens Riksförbund',
+            origin: 'Iteam',
+            body: 'Design, research and development of a new web-based system for workshops repairing cars and billing insurance companies. The challenges of this project include supporting all legal requirements of GDPR, bookkeeping law and building a system with the end user in focus.',
+            start: 2018,
+            end: 2020,
+          },
+          tags: [
+            'node',
+            'postgresql',
+            'ux research',
+            'lean ux',
+            'aws',
+            'eks',
+            'kubernetes',
+          ],
+        },
+        {
+          meta: {
+            customer: 'SEB',
+            origin: 'Iteam',
+            body: 'Technical Advisor & Agile Coach. Working as part of one of SEB’s development teams to learn and teach alongside with their developers and help them overcome organisational obstacles and adopt better ways of working with system development. Working with a cross team implementing Docker Enterprise with Docker for Windows nodes. SEB was one of the first customers to run docker on Windows Server at their scale.',
+            start: 2017,
+            end: 2019,
+          },
+          tags: [
+            '.NET',
+            'dotnet core',
+            'javascript',
+            'docker',
+            'docker swarm',
+            'kubernetes',
+            'docker enterprise',
+            'devops thinking',
+            'devops culture',
+            'agile coaching',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Uppdragshuset',
+            origin: 'Iteam',
+            body: 'Technical advisor working closely with two of Uppdragshuset’s senior developers in their initiative to adopt Docker and radically change their development flow.',
+            start: 2015,
+            end: 2016,
+          },
+          tags: [
+            'docker',
+            'docker cloud',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Taxi Stockholm AB',
+            origin: 'Iteam',
+            body: 'Played a role in the creation and setup of TSAB’s cloud orchestrated Docker environment with Docker cloud and Microsoft Azure. Development of data mining and market automation applications using node.js to process and transfer data from MySQL and Oracle DB to no-sql databases (RethinkDB and ElasticSearch). Development of a RESTful API in node.js, integrations with SOAP API:s, Oracle DB and RPC backends.',
+            start: 2015,
+            end: 2017,
+          },
+          tags: [
+            '.NET',
+            'node',
+            'legacy API:s',
+            'MySQL',
+            'Oracle DB',
+            'Azure',
+            'docker cloud',
+            'RethinDB',
+            'ElasticSearch',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Vimla',
+            origin: 'Iteam',
+            body: 'Developer and technical advisor for Vimla’s website/customer portal (.NET), REST API (nodejs) and community platform (nodebb). Integrations with SOAP APIs, Lithium and payment providers DIBS and Klarna. Moved the project over from TFS to Git and TeamCity, improving the development workflow and ability to handle branches and isolated features. Setup continuous integration workflow from GitHub to Docker Cloud. Responsible for the setup and maintenance of their linux-based servers running Docker.',
+            start: 2014,
+            end: 2018,
+          },
+          tags: [
+            '.NET',
+            'node',
+            'legacy API:s',
+            'linux',
+            'Oracle DB',
+            'docker swarm',
+            'Klarna',
+            'DIBS',
+          ],
+        },
+      ],
+      Positions: [
+        {
+          meta: {
+            employer: 'Iteam Solutions',
+            title: 'Code, DevOps and NoEstimates Mentor',
+            body: 'At Iteam I started working as a system developer and focusing on .NET. During my time here we have shifted from .NET towards javascript and node. I have also grown a lot in my role; learning about DevOps culture, docker, kubernetes, UX research and mentoring.',
             start: 2013,
             end: null,
           },
+          location: {
+            city: 'Stockholm',
+            country: 'Sweden',
+          },
+          tags: [
+            'development',
+            'devops',
+            'ux',
+            'mentoring',
+            'agile',
+            'advisory',
+          ],
         },
         {
-          employment: {
+          meta: {
             employer: 'Mogul',
             title: 'System Developer',
             body: 'My time at Mogul consisted of working as a consultant for TV4, maintaining and developing their sales support system. It was a very valuable time for me where I got to polish my skills as a developer and learn a lot about .NET and SQL Server. Towards the end I also got to experience what it is like to take on the role as a tech lead, since I became responsible for enrolling new developers in the team.',
-          },
-          location: {
-            city: 'Stockholm',
-            country: 'Sweden',
-          },
-          tags: [
-            '.net',
-            'mssql',
-            'javascript',
-          ],
-          chronology: {
             start: 2010,
             end: 2013,
           },
+          location: {
+            city: 'Stockholm',
+            country: 'Sweden',
+          },
+          tags: [
+            'consulting',
+            'development',
+            'advisory',
+            'tech lead',
+          ],
         },
         {
-          employment: {
+          meta: {
             employer: 'Pdb (formerly Hitone Nordic)',
             title: 'System Developer',
             body: 'During my time at Hitone (that later became Pdb) I worked on various Business Intelligence projects, learning a lot about databases and SQL. This is also where I started learning .NET in depth and towards the end of my time at Pdb I spend most of my time writing code.',
+            start: 2008,
+            end: 2010,
           },
           location: {
             city: 'Stockholm',
             country: 'Sweden',
           },
           tags: [
-            '.net',
-            'mssql',
+            'development',
             'business intelligence',
           ],
-          chronology: {
-            start: 2008,
-            end: 2010,
-          },
         },
       ],
     };
@@ -446,8 +578,8 @@ var app = (function () {
     		c: function create() {
     			div = element("div");
     			t = text(/*tag*/ ctx[0]);
-    			attr_dev(div, "class", "svelte-1tklc5q");
-    			add_location(div, file, 23, 0, 432);
+    			attr_dev(div, "class", "svelte-1ynor19");
+    			add_location(div, file, 16, 0, 285);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -543,9 +675,9 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (9:4) {#if assignment.chronology.end}
+    // (9:4) {#if assignment.meta.end}
     function create_if_block(ctx) {
-    	let t_value = /*assignment*/ ctx[0].chronology.end + "";
+    	let t_value = /*assignment*/ ctx[0].meta.end + "";
     	let t;
 
     	const block = {
@@ -556,7 +688,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*assignment*/ 1 && t_value !== (t_value = /*assignment*/ ctx[0].chronology.end + "")) set_data_dev(t, t_value);
+    			if (dirty & /*assignment*/ 1 && t_value !== (t_value = /*assignment*/ ctx[0].meta.end + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -567,7 +699,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(9:4) {#if assignment.chronology.end}",
+    		source: "(9:4) {#if assignment.meta.end}",
     		ctx
     	});
 
@@ -624,7 +756,7 @@ var app = (function () {
     function create_fragment$1(ctx) {
     	let div;
     	let span0;
-    	let t0_value = /*assignment*/ ctx[0].chronology.start + "";
+    	let t0_value = /*assignment*/ ctx[0].meta.start + "";
     	let t0;
     	let t1;
     	let t2;
@@ -644,7 +776,7 @@ var app = (function () {
     	let t9;
     	let span4;
     	let current;
-    	let if_block = /*assignment*/ ctx[0].chronology.end && create_if_block(ctx);
+    	let if_block = /*assignment*/ ctx[0].meta.end && create_if_block(ctx);
     	let each_value = /*assignment*/ ctx[0].tags;
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -671,7 +803,7 @@ var app = (function () {
     			t3 = text(t3_value);
     			t4 = text(" (");
     			t5 = text(t5_value);
-    			t6 = text(")");
+    			t6 = text(" consultant)");
     			t7 = space();
     			span3 = element("span");
     			t8 = text(t8_value);
@@ -685,14 +817,14 @@ var app = (function () {
     			attr_dev(span0, "class", "chronology svelte-9gmz39");
     			add_location(span0, file$1, 6, 2, 104);
     			attr_dev(span1, "class", "customer svelte-9gmz39");
-    			add_location(span1, file$1, 15, 6, 322);
+    			add_location(span1, file$1, 15, 6, 304);
     			attr_dev(span2, "class", "head svelte-9gmz39");
-    			add_location(span2, file$1, 14, 4, 296);
+    			add_location(span2, file$1, 14, 4, 278);
     			attr_dev(span3, "class", "body svelte-9gmz39");
-    			add_location(span3, file$1, 18, 4, 427);
-    			add_location(span4, file$1, 22, 4, 493);
+    			add_location(span3, file$1, 18, 4, 420);
+    			add_location(span4, file$1, 22, 4, 486);
     			attr_dev(span5, "class", "information svelte-9gmz39");
-    			add_location(span5, file$1, 13, 2, 265);
+    			add_location(span5, file$1, 13, 2, 247);
     			attr_dev(div, "class", "assignment svelte-9gmz39");
     			add_location(div, file$1, 5, 0, 77);
     		},
@@ -726,9 +858,9 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
-    			if ((!current || dirty & /*assignment*/ 1) && t0_value !== (t0_value = /*assignment*/ ctx[0].chronology.start + "")) set_data_dev(t0, t0_value);
+    			if ((!current || dirty & /*assignment*/ 1) && t0_value !== (t0_value = /*assignment*/ ctx[0].meta.start + "")) set_data_dev(t0, t0_value);
 
-    			if (/*assignment*/ ctx[0].chronology.end) {
+    			if (/*assignment*/ ctx[0].meta.end) {
     				if (if_block) {
     					if_block.p(ctx, dirty);
     				} else {
@@ -875,9 +1007,9 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (9:4) {#if position.chronology.end}
+    // (9:4) {#if position.meta.end}
     function create_if_block$1(ctx) {
-    	let t_value = /*position*/ ctx[0].chronology.end + "";
+    	let t_value = /*position*/ ctx[0].meta.end + "";
     	let t;
 
     	const block = {
@@ -888,7 +1020,7 @@ var app = (function () {
     			insert_dev(target, t, anchor);
     		},
     		p: function update(ctx, dirty) {
-    			if (dirty & /*position*/ 1 && t_value !== (t_value = /*position*/ ctx[0].chronology.end + "")) set_data_dev(t, t_value);
+    			if (dirty & /*position*/ 1 && t_value !== (t_value = /*position*/ ctx[0].meta.end + "")) set_data_dev(t, t_value);
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(t);
@@ -899,7 +1031,7 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(9:4) {#if position.chronology.end}",
+    		source: "(9:4) {#if position.meta.end}",
     		ctx
     	});
 
@@ -956,27 +1088,27 @@ var app = (function () {
     function create_fragment$2(ctx) {
     	let div;
     	let span0;
-    	let t0_value = /*position*/ ctx[0].chronology.start + "";
+    	let t0_value = /*position*/ ctx[0].meta.start + "";
     	let t0;
     	let t1;
     	let t2;
     	let span6;
     	let span3;
     	let span1;
-    	let t3_value = /*position*/ ctx[0].employment.title + "";
+    	let t3_value = /*position*/ ctx[0].meta.title + "";
     	let t3;
     	let t4;
     	let span2;
-    	let t5_value = /*position*/ ctx[0].employment.employer + "";
+    	let t5_value = /*position*/ ctx[0].meta.employer + "";
     	let t5;
     	let t6;
     	let span4;
-    	let t7_value = /*position*/ ctx[0].employment.body + "";
+    	let t7_value = /*position*/ ctx[0].meta.body + "";
     	let t7;
     	let t8;
     	let span5;
     	let current;
-    	let if_block = /*position*/ ctx[0].chronology.end && create_if_block$1(ctx);
+    	let if_block = /*position*/ ctx[0].meta.end && create_if_block$1(ctx);
     	let each_value = /*position*/ ctx[0].tags;
     	validate_each_argument(each_value);
     	let each_blocks = [];
@@ -1017,16 +1149,16 @@ var app = (function () {
     			attr_dev(span0, "class", "chronology svelte-1mh3sku");
     			add_location(span0, file$2, 6, 2, 100);
     			attr_dev(span1, "class", "title svelte-1mh3sku");
-    			add_location(span1, file$2, 15, 6, 312);
+    			add_location(span1, file$2, 15, 6, 294);
     			attr_dev(span2, "class", "employer svelte-1mh3sku");
-    			add_location(span2, file$2, 16, 6, 376);
+    			add_location(span2, file$2, 16, 6, 352);
     			attr_dev(span3, "class", "head svelte-1mh3sku");
-    			add_location(span3, file$2, 14, 4, 286);
+    			add_location(span3, file$2, 14, 4, 268);
     			attr_dev(span4, "class", "body svelte-1mh3sku");
-    			add_location(span4, file$2, 19, 4, 458);
-    			add_location(span5, file$2, 23, 4, 528);
+    			add_location(span4, file$2, 19, 4, 428);
+    			add_location(span5, file$2, 23, 4, 492);
     			attr_dev(span6, "class", "information svelte-1mh3sku");
-    			add_location(span6, file$2, 13, 2, 255);
+    			add_location(span6, file$2, 13, 2, 237);
     			attr_dev(div, "class", "position svelte-1mh3sku");
     			add_location(div, file$2, 5, 0, 75);
     		},
@@ -1060,9 +1192,9 @@ var app = (function () {
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
-    			if ((!current || dirty & /*position*/ 1) && t0_value !== (t0_value = /*position*/ ctx[0].chronology.start + "")) set_data_dev(t0, t0_value);
+    			if ((!current || dirty & /*position*/ 1) && t0_value !== (t0_value = /*position*/ ctx[0].meta.start + "")) set_data_dev(t0, t0_value);
 
-    			if (/*position*/ ctx[0].chronology.end) {
+    			if (/*position*/ ctx[0].meta.end) {
     				if (if_block) {
     					if_block.p(ctx, dirty);
     				} else {
@@ -1075,9 +1207,9 @@ var app = (function () {
     				if_block = null;
     			}
 
-    			if ((!current || dirty & /*position*/ 1) && t3_value !== (t3_value = /*position*/ ctx[0].employment.title + "")) set_data_dev(t3, t3_value);
-    			if ((!current || dirty & /*position*/ 1) && t5_value !== (t5_value = /*position*/ ctx[0].employment.employer + "")) set_data_dev(t5, t5_value);
-    			if ((!current || dirty & /*position*/ 1) && t7_value !== (t7_value = /*position*/ ctx[0].employment.body + "")) set_data_dev(t7, t7_value);
+    			if ((!current || dirty & /*position*/ 1) && t3_value !== (t3_value = /*position*/ ctx[0].meta.title + "")) set_data_dev(t3, t3_value);
+    			if ((!current || dirty & /*position*/ 1) && t5_value !== (t5_value = /*position*/ ctx[0].meta.employer + "")) set_data_dev(t5, t5_value);
+    			if ((!current || dirty & /*position*/ 1) && t7_value !== (t7_value = /*position*/ ctx[0].meta.body + "")) set_data_dev(t7, t7_value);
 
     			if (dirty & /*position*/ 1) {
     				each_value = /*position*/ ctx[0].tags;
@@ -1205,22 +1337,22 @@ var app = (function () {
 
     function get_each_context$2(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[0] = list[i];
+    	child_ctx[1] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[3] = list[i];
+    	child_ctx[4] = list[i];
     	return child_ctx;
     }
 
-    // (18:2) {#each CV.Positions as position}
+    // (31:2) {#each CV.Positions as position}
     function create_each_block_1(ctx) {
     	let current;
 
     	const position = new Position({
-    			props: { position: /*position*/ ctx[3] },
+    			props: { position: /*position*/ ctx[4] },
     			$$inline: true
     		});
 
@@ -1251,19 +1383,19 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(18:2) {#each CV.Positions as position}",
+    		source: "(31:2) {#each CV.Positions as position}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (24:2) {#each CV.Assignments as assignment}
+    // (37:2) {#each CV.Assignments as assignment}
     function create_each_block$2(ctx) {
     	let current;
 
     	const assignment = new Assignment({
-    			props: { assignment: /*assignment*/ ctx[0] },
+    			props: { assignment: /*assignment*/ ctx[1] },
     			$$inline: true
     		});
 
@@ -1294,7 +1426,7 @@ var app = (function () {
     		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(24:2) {#each CV.Assignments as assignment}",
+    		source: "(37:2) {#each CV.Assignments as assignment}",
     		ctx
     	});
 
@@ -1395,23 +1527,23 @@ var app = (function () {
     			t17 = space();
     			p1 = element("p");
     			p1.textContent = "Hint: On most computers you can save my CV as a PDF via your regular printing dialogue.";
-    			add_location(h1, file$3, 11, 2, 253);
-    			add_location(h2, file$3, 12, 2, 282);
-    			add_location(h30, file$3, 15, 1, 311);
-    			add_location(hr0, file$3, 16, 1, 331);
-    			add_location(h31, file$3, 21, 1, 422);
-    			add_location(hr1, file$3, 22, 1, 444);
+    			add_location(h1, file$3, 24, 2, 468);
+    			add_location(h2, file$3, 25, 2, 497);
+    			add_location(h30, file$3, 28, 1, 526);
+    			add_location(hr0, file$3, 29, 1, 546);
+    			add_location(h31, file$3, 34, 1, 637);
+    			add_location(hr1, file$3, 35, 1, 659);
     			attr_dev(h32, "class", "noprint");
-    			add_location(h32, file$3, 27, 1, 545);
+    			add_location(h32, file$3, 40, 1, 760);
     			attr_dev(hr2, "class", "noprint");
-    			add_location(hr2, file$3, 28, 1, 583);
-    			add_location(br, file$3, 30, 30, 657);
+    			add_location(hr2, file$3, 41, 1, 798);
+    			add_location(br, file$3, 43, 30, 872);
     			attr_dev(p0, "class", "noprint svelte-1ua7kva");
-    			add_location(p0, file$3, 29, 1, 607);
+    			add_location(p0, file$3, 42, 1, 822);
     			attr_dev(p1, "class", "svelte-1ua7kva");
-    			add_location(p1, file$3, 33, 1, 750);
+    			add_location(p1, file$3, 46, 1, 965);
     			attr_dev(main, "class", "svelte-1ua7kva");
-    			add_location(main, file$3, 10, 0, 244);
+    			add_location(main, file$3, 23, 0, 459);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1558,7 +1690,22 @@ var app = (function () {
     }
 
     function instance$3($$self, $$props, $$invalidate) {
-    	CV.Positions.sort(x => !x.chronology.start);
+    	const sortDelegate = (a, b) => {
+    		if (a.meta.start > b.meta.start) {
+    			return -1;
+    		}
+
+    		if (a.meta.start < b.meta.start) {
+    			return 1;
+    		}
+
+    		return 0;
+    	};
+
+    	// Order assignments and positions by start year.
+    	CV.Assignments.sort((x, y) => sortDelegate(x, y));
+
+    	CV.Positions.sort((x, y) => sortDelegate(x, y));
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -1567,7 +1714,7 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("App", $$slots, []);
-    	$$self.$capture_state = () => ({ CV, Assignment, Position });
+    	$$self.$capture_state = () => ({ CV, Assignment, Position, sortDelegate });
     	return [];
     }
 
