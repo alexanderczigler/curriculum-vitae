@@ -4,8 +4,21 @@
 	import Assignment from './Assignment.svelte'
   import Position from './Position.svelte'
 	
+	const sortDelegate = (a, b) => {
+		if (a.meta.start > b.meta.start) {
+			return -1
+		}
+
+		if (a.meta.start < b.meta.start) {
+			return 1
+		}
+		
+		return 0
+	}
+
 	// Order assignments and positions by start year.
-	CV.Positions.sort(x => !x.chronology.start)
+	CV.Assignments.sort((x, y) => sortDelegate(x, y))
+	CV.Positions.sort((x, y) => sortDelegate(x, y))
 </script>
 
 <main>

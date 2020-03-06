@@ -5,15 +5,15 @@
 
 <div class="assignment">
   <span class="chronology">
-    {assignment.chronology.start} &mdash;
-    {#if assignment.chronology.end}
-      {assignment.chronology.end}
+    {assignment.meta.start} &mdash;
+    {#if assignment.meta.end}
+      {assignment.meta.end}
     {/if}
   </span>
 
   <span class="information">
     <span class="head">
-      <span class="customer">{assignment.meta.customer}</span> ({assignment.meta.origin})
+      <span class="customer">{assignment.meta.customer}</span> ({assignment.meta.origin} consultant)
     </span>
     
     <span class="body">

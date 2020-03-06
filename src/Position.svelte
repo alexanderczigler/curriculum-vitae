@@ -5,20 +5,20 @@
 
 <div class="position">
   <span class="chronology">
-    {position.chronology.start} &mdash;
-    {#if position.chronology.end}
-      {position.chronology.end}
+    {position.meta.start} &mdash;
+    {#if position.meta.end}
+      {position.meta.end}
     {/if}
   </span>
 
   <span class="information">
     <span class="head">
-      <span class="title">{position.employment.title}</span> at
-      <span class="employer">{position.employment.employer}</span>
+      <span class="title">{position.meta.title}</span> at
+      <span class="employer">{position.meta.employer}</span>
     </span>
     
     <span class="body">
-      {position.employment.body}
+      {position.meta.body}
     </span>
 
     <span>
