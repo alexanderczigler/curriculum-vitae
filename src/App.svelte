@@ -74,7 +74,7 @@
 		Thank you for reading my CV!<br />
 		If you wish to get in touch with me, send me a text message on +46727145060.
 	</p>
-	<p>
+	<p class="noprint">
 		Hint: On most computers you can save my CV as a PDF via your regular printing dialogue.
 	</p>
 </main>
