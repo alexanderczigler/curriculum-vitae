@@ -349,6 +349,156 @@ var app = (function () {
       Assignments: [
         {
           meta: {
+            customer: 'Sound-Ideas',
+            origin: 'Iteam',
+            body: 'Development/maintenance of Sound-Ideas’ e-commerce platforms (StockMusic.com and WestarMusic.com) where they sell audio and sound effects for use on radio, television etc. ',
+            start: 2013,
+            end: 2018,
+          },
+          tags: [
+            '.NET',
+            'SQL Server',
+            'Windows Server',
+            'audio conversion',
+            'ffmpeg',
+            'ecommerce',
+          ],
+        },
+        {
+          meta: {
+            customer: 'TRR Trygghetsrådet/Startkraft',
+            origin: 'Iteam',
+            body: 'Developer and responsible for a web based system where available jobs are matched with job seeking clients at Trygghetsrådet and Startkraft. Moved code from TFS to self-hosted GIT and TeamCity.',
+            start: 2013,
+            end: 2015,
+          },
+          tags: [
+            '.NET',
+            'ElasticSearch',
+            'AngularJS',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Urban Girls Movement',
+            origin: 'Volunteer',
+            body: 'I helped UGM by exporting their Minecraft model of Fittja Centrum for Sketchfab and 3D printing.',
+            start: 2019,
+            end: 2019,
+          },
+          tags: [
+            '.NET',
+            'ElasticSearch',
+            'AngularJS',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Refugee Tech',
+            origin: 'Volunteer',
+            body: 'Starting at a hackathon that Refugee Tech held me and a few coworkers created “Competency”. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden. The data is meant to be used to show meda, politicians and the Swedish population that refugees have a lot of competence and talent that Sweden should utilize. In conjunction with a job search engine it can also be used to match individuals with available jobs and employers looking for talent. Thanks to the efforts of me and the team, Competency later evolved into JobSkills - jobskills.se',
+            start: 2016,
+            end: 2017,
+          },
+          tags: [
+            '.NET',
+            'ElasticSearch',
+            'AngularJS',
+          ],
+        },
+        {
+          meta: {
+            customer: '',
+            origin: 'Freelance',
+            body: 'During these years I did various small projects, some free and some paid. The majority of them consisted of web design and simple static or dynamic web sites. In addition to that I also setup and hosted various types of servers, including web and chat servers.',
+            start: 2003,
+            end: 2010,
+          },
+          tags: [
+            'freebsd',
+            'linux',
+            'windows server',
+            'apache',
+            'nginx',
+            'ircd',
+            'jabberd',
+            'ftpd',
+            'web design',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Getinge',
+            origin: 'Pdb',
+            body: 'Development of reports and a system for calculating prices on Getinge\'s spare parts with regard to their accessibility on the market.',
+            start: 2008,
+            end: 2010,
+          },
+          tags: [
+            '.NET',
+            'Lawson M3',
+            'DataSet Vision',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Atlas Copco',
+            origin: 'Pdb',
+            body: 'Development of various smaller BI applications and data warehousing.',
+            start: 2008,
+            end: 2010,
+          },
+          tags: [
+            'DataSet Vision',
+            'SQL Server',
+            'Lawson M3',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Panasonic Europe',
+            origin: 'Pdb',
+            body: 'Development/maintenance of Pansonic\'s B2B webshops.',
+            start: 2009,
+            end: 2010,
+          },
+          tags: [
+            '.NET',
+            'ecommerce',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Panasonic Nordic',
+            origin: 'Pdb',
+            body: 'Development of a forecast/budget tool used by Panasonic\'s backoffice.',
+            start: 2009,
+            end: 2010,
+          },
+          tags: [
+            '.NET',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Dovado',
+            origin: 'Pdb',
+            body: 'Development of the linux-based Dovado routers that supported 3G USB dongles used by various Swedish operators.',
+            start: 2008,
+            end: 2008,
+          },
+          tags: [
+            'linux',
+            'embedded',
+            'shell',
+            'ash',
+            'busybox',
+            'usb',
+            '3g',
+          ],
+        },
+        {
+          meta: {
             customer: 'TV4 Gruppen',
             origin: 'Mogul',
             body: 'I was part of a team repsonsible for development and maintenance of TV4\'s sales support system "L4".',
@@ -505,6 +655,33 @@ var app = (function () {
           ],
         },
       ],
+      Links: [
+        {
+          url: 'https://github.com/alexanderczigler',
+          title: 'GitHub Profile',
+          type: 'presence',
+        },
+        {
+          url: 'https://iteam.se/medarbetare/acr',
+          title: 'Iteam Solutions',
+          type: 'presence',
+        },
+        {
+          url: 'https://www.goodreads.com/review/list/53571813-alexander?shelf=read',
+          title: 'Goodreads',
+          type: 'presence',
+        },
+        {
+          url: 'http://www.ahousestockholm.com/ai-billgren-talk-with-christian-landgren/',
+          title: 'AI-Billgren',
+          type: 'mention',
+        },
+        {
+          url: 'https://egendata.se/om-oss/',
+          title: 'Egendata',
+          type: 'mention',
+        },
+      ],
       Positions: [
         {
           meta: {
@@ -561,6 +738,26 @@ var app = (function () {
           tags: [
             'development',
             'business intelligence',
+          ],
+        },
+
+        {
+          meta: {
+            employer: 'Freelance',
+            title: 'Developer/Tech',
+            body: 'From the time I was in high school and until around 2010 I did various gigs ranging from web design to server setup and hosting. This is a time when I learned a lot about linux/unix and networking. Some of the gigs I did consisted of web design and lighter php development.',
+            start: 2003,
+            end: 2010,
+          },
+          location: {
+            city: 'Stockholm',
+            country: 'Sweden',
+          },
+          tags: [
+            'linux',
+            'freebsd',
+            'networking',
+            'web design',
           ],
         },
       ],
@@ -1337,22 +1534,34 @@ var app = (function () {
 
     function get_each_context$2(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[1] = list[i];
+    	child_ctx[3] = list[i];
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[4] = list[i];
+    	child_ctx[6] = list[i];
     	return child_ctx;
     }
 
-    // (31:2) {#each CV.Positions as position}
-    function create_each_block_1(ctx) {
+    function get_each_context_2(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[6] = list[i];
+    	return child_ctx;
+    }
+
+    function get_each_context_3(ctx, list, i) {
+    	const child_ctx = ctx.slice();
+    	child_ctx[11] = list[i];
+    	return child_ctx;
+    }
+
+    // (45:2) {#each CV.Positions as position}
+    function create_each_block_3(ctx) {
     	let current;
 
     	const position = new Position({
-    			props: { position: /*position*/ ctx[4] },
+    			props: { position: /*position*/ ctx[11] },
     			$$inline: true
     		});
 
@@ -1381,21 +1590,21 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block_1.name,
+    		id: create_each_block_3.name,
     		type: "each",
-    		source: "(31:2) {#each CV.Positions as position}",
+    		source: "(45:2) {#each CV.Positions as position}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (37:2) {#each CV.Assignments as assignment}
-    function create_each_block$2(ctx) {
+    // (51:2) {#each assignments as assignment}
+    function create_each_block_2(ctx) {
     	let current;
 
     	const assignment = new Assignment({
-    			props: { assignment: /*assignment*/ ctx[1] },
+    			props: { assignment: /*assignment*/ ctx[6] },
     			$$inline: true
     		});
 
@@ -1424,9 +1633,94 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
+    		id: create_each_block_2.name,
+    		type: "each",
+    		source: "(51:2) {#each assignments as assignment}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (57:2) {#each volunteerAssignments as assignment}
+    function create_each_block_1(ctx) {
+    	let current;
+
+    	const assignment = new Assignment({
+    			props: { assignment: /*assignment*/ ctx[6] },
+    			$$inline: true
+    		});
+
+    	const block = {
+    		c: function create() {
+    			create_component(assignment.$$.fragment);
+    		},
+    		m: function mount(target, anchor) {
+    			mount_component(assignment, target, anchor);
+    			current = true;
+    		},
+    		p: noop,
+    		i: function intro(local) {
+    			if (current) return;
+    			transition_in(assignment.$$.fragment, local);
+    			current = true;
+    		},
+    		o: function outro(local) {
+    			transition_out(assignment.$$.fragment, local);
+    			current = false;
+    		},
+    		d: function destroy(detaching) {
+    			destroy_component(assignment, detaching);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
+    		id: create_each_block_1.name,
+    		type: "each",
+    		source: "(57:2) {#each volunteerAssignments as assignment}",
+    		ctx
+    	});
+
+    	return block;
+    }
+
+    // (64:2) {#each CV.Links as link}
+    function create_each_block$2(ctx) {
+    	let li;
+    	let a;
+    	let t0_value = /*link*/ ctx[3].title + "";
+    	let t0;
+    	let a_href_value;
+    	let t1;
+
+    	const block = {
+    		c: function create() {
+    			li = element("li");
+    			a = element("a");
+    			t0 = text(t0_value);
+    			t1 = space();
+    			attr_dev(a, "href", a_href_value = /*link*/ ctx[3].url);
+    			add_location(a, file$3, 65, 4, 1942);
+    			add_location(li, file$3, 64, 3, 1933);
+    		},
+    		m: function mount(target, anchor) {
+    			insert_dev(target, li, anchor);
+    			append_dev(li, a);
+    			append_dev(a, t0);
+    			append_dev(li, t1);
+    		},
+    		p: noop,
+    		d: function destroy(detaching) {
+    			if (detaching) detach_dev(li);
+    		}
+    	};
+
+    	dispatch_dev("SvelteRegisterBlock", {
+    		block,
     		id: create_each_block$2.name,
     		type: "each",
-    		source: "(37:2) {#each CV.Assignments as assignment}",
+    		source: "(64:2) {#each CV.Links as link}",
     		ctx
     	});
 
@@ -1443,24 +1737,69 @@ var app = (function () {
     	let t5;
     	let hr0;
     	let t6;
-    	let t7;
-    	let h31;
-    	let t9;
-    	let hr1;
-    	let t10;
-    	let t11;
-    	let h32;
-    	let t13;
-    	let hr2;
-    	let t14;
     	let p0;
-    	let t15;
-    	let br;
-    	let t16;
-    	let t17;
+    	let t8;
     	let p1;
+    	let t10;
+    	let p2;
+    	let t12;
+    	let h31;
+    	let t14;
+    	let hr1;
+    	let t15;
+    	let t16;
+    	let h32;
+    	let t18;
+    	let hr2;
+    	let t19;
+    	let t20;
+    	let h33;
+    	let t22;
+    	let hr3;
+    	let t23;
+    	let t24;
+    	let h34;
+    	let t26;
+    	let hr4;
+    	let t27;
+    	let ul;
+    	let t28;
+    	let h35;
+    	let t30;
+    	let hr5;
+    	let t31;
+    	let p3;
+    	let t32;
+    	let br;
+    	let t33;
+    	let t34;
+    	let p4;
     	let current;
-    	let each_value_1 = CV.Positions;
+    	let each_value_3 = CV.Positions;
+    	validate_each_argument(each_value_3);
+    	let each_blocks_3 = [];
+
+    	for (let i = 0; i < each_value_3.length; i += 1) {
+    		each_blocks_3[i] = create_each_block_3(get_each_context_3(ctx, each_value_3, i));
+    	}
+
+    	const out = i => transition_out(each_blocks_3[i], 1, 1, () => {
+    		each_blocks_3[i] = null;
+    	});
+
+    	let each_value_2 = /*assignments*/ ctx[0];
+    	validate_each_argument(each_value_2);
+    	let each_blocks_2 = [];
+
+    	for (let i = 0; i < each_value_2.length; i += 1) {
+    		each_blocks_2[i] = create_each_block_2(get_each_context_2(ctx, each_value_2, i));
+    	}
+
+    	const out_1 = i => transition_out(each_blocks_2[i], 1, 1, () => {
+    		each_blocks_2[i] = null;
+    	});
+
+    	let each_value_1 = /*volunteerAssignments*/ ctx[1];
     	validate_each_argument(each_value_1);
     	let each_blocks_1 = [];
 
@@ -1468,21 +1807,17 @@ var app = (function () {
     		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
     	}
 
-    	const out = i => transition_out(each_blocks_1[i], 1, 1, () => {
+    	const out_2 = i => transition_out(each_blocks_1[i], 1, 1, () => {
     		each_blocks_1[i] = null;
     	});
 
-    	let each_value = CV.Assignments;
+    	let each_value = CV.Links;
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value.length; i += 1) {
     		each_blocks[i] = create_each_block$2(get_each_context$2(ctx, each_value, i));
     	}
-
-    	const out_1 = i => transition_out(each_blocks[i], 1, 1, () => {
-    		each_blocks[i] = null;
-    	});
 
     	const block = {
     		c: function create() {
@@ -1494,56 +1829,109 @@ var app = (function () {
     			h2.textContent = "Curriculum Vitae";
     			t3 = space();
     			h30 = element("h3");
-    			h30.textContent = "Positions";
+    			h30.textContent = "Introduction";
     			t5 = space();
     			hr0 = element("hr");
     			t6 = space();
+    			p0 = element("p");
+    			p0.textContent = "We are at the golden age of team efficiency. I firmly believe that companies who want to thrive in the future need to make their employees experts at cooperation and autonomy.";
+    			t8 = space();
+    			p1 = element("p");
+    			p1.textContent = "This is where I come in; I love using my technical experience to help improve the culture and way of working. My specialty is meshing into existing teams and taking a blended role helping out where I am needed most from day to day; be it pair-programming, agile coaching or UX research.";
+    			t10 = space();
+    			p2 = element("p");
+    			p2.textContent = "My long background as a system developer has given me a lot of insights as to why so many IT projects fail. I am a great addition to any team that wants to identify bottlenecks, have fun and learn the ways of DevOps Thinking and Lean UX.";
+    			t12 = space();
+    			h31 = element("h3");
+    			h31.textContent = "Positions";
+    			t14 = space();
+    			hr1 = element("hr");
+    			t15 = space();
+
+    			for (let i = 0; i < each_blocks_3.length; i += 1) {
+    				each_blocks_3[i].c();
+    			}
+
+    			t16 = space();
+    			h32 = element("h3");
+    			h32.textContent = "Assignments";
+    			t18 = space();
+    			hr2 = element("hr");
+    			t19 = space();
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].c();
+    			}
+
+    			t20 = space();
+    			h33 = element("h3");
+    			h33.textContent = "Volunteering";
+    			t22 = space();
+    			hr3 = element("hr");
+    			t23 = space();
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].c();
     			}
 
-    			t7 = space();
-    			h31 = element("h3");
-    			h31.textContent = "Assignments";
-    			t9 = space();
-    			hr1 = element("hr");
-    			t10 = space();
+    			t24 = space();
+    			h34 = element("h3");
+    			h34.textContent = "Links";
+    			t26 = space();
+    			hr4 = element("hr");
+    			t27 = space();
+    			ul = element("ul");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t11 = space();
-    			h32 = element("h3");
-    			h32.textContent = "Information";
-    			t13 = space();
-    			hr2 = element("hr");
-    			t14 = space();
-    			p0 = element("p");
-    			t15 = text("Thank you for reading my CV!");
+    			t28 = space();
+    			h35 = element("h3");
+    			h35.textContent = "Information";
+    			t30 = space();
+    			hr5 = element("hr");
+    			t31 = space();
+    			p3 = element("p");
+    			t32 = text("Thank you for reading my CV!");
     			br = element("br");
-    			t16 = text("\n\t\tIf you wish to get in touch with me, send me a text message on +46727145060.");
-    			t17 = space();
-    			p1 = element("p");
-    			p1.textContent = "Hint: On most computers you can save my CV as a PDF via your regular printing dialogue.";
-    			add_location(h1, file$3, 24, 2, 468);
-    			add_location(h2, file$3, 25, 2, 497);
-    			add_location(h30, file$3, 28, 1, 526);
-    			add_location(hr0, file$3, 29, 1, 546);
-    			add_location(h31, file$3, 34, 1, 637);
-    			add_location(hr1, file$3, 35, 1, 659);
-    			attr_dev(h32, "class", "noprint");
-    			add_location(h32, file$3, 40, 1, 760);
-    			attr_dev(hr2, "class", "noprint");
-    			add_location(hr2, file$3, 41, 1, 798);
-    			add_location(br, file$3, 43, 30, 872);
-    			attr_dev(p0, "class", "noprint svelte-1ua7kva");
-    			add_location(p0, file$3, 42, 1, 822);
+    			t33 = text("\n\t\tIf you wish to get in touch with me, send me a text message on +46727145060.");
+    			t34 = space();
+    			p4 = element("p");
+    			p4.textContent = "Hint: On most computers you can save my CV as a PDF via your regular printing dialogue.";
+    			add_location(h1, file$3, 27, 2, 636);
+    			add_location(h2, file$3, 28, 2, 665);
+    			add_location(h30, file$3, 30, 1, 693);
+    			add_location(hr0, file$3, 31, 1, 716);
+    			attr_dev(p0, "class", "svelte-1ua7kva");
+    			add_location(p0, file$3, 32, 1, 724);
     			attr_dev(p1, "class", "svelte-1ua7kva");
-    			add_location(p1, file$3, 46, 1, 965);
+    			add_location(p1, file$3, 35, 1, 913);
+    			attr_dev(p2, "class", "svelte-1ua7kva");
+    			add_location(p2, file$3, 38, 1, 1213);
+    			add_location(h31, file$3, 42, 1, 1465);
+    			add_location(hr1, file$3, 43, 1, 1485);
+    			add_location(h32, file$3, 48, 1, 1576);
+    			add_location(hr2, file$3, 49, 1, 1598);
+    			add_location(h33, file$3, 54, 1, 1696);
+    			add_location(hr3, file$3, 55, 1, 1719);
+    			attr_dev(h34, "class", "noprint");
+    			add_location(h34, file$3, 60, 1, 1826);
+    			attr_dev(hr4, "class", "noprint");
+    			add_location(hr4, file$3, 61, 1, 1858);
+    			attr_dev(ul, "class", "noprint");
+    			add_location(ul, file$3, 62, 1, 1882);
+    			attr_dev(h35, "class", "noprint");
+    			add_location(h35, file$3, 70, 1, 2009);
+    			attr_dev(hr5, "class", "noprint");
+    			add_location(hr5, file$3, 71, 1, 2047);
+    			add_location(br, file$3, 73, 30, 2121);
+    			attr_dev(p3, "class", "noprint svelte-1ua7kva");
+    			add_location(p3, file$3, 72, 1, 2071);
+    			attr_dev(p4, "class", "svelte-1ua7kva");
+    			add_location(p4, file$3, 76, 1, 2214);
     			attr_dev(main, "class", "svelte-1ua7kva");
-    			add_location(main, file$3, 23, 0, 459);
+    			add_location(main, file$3, 26, 0, 627);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1558,37 +1946,124 @@ var app = (function () {
     			append_dev(main, t5);
     			append_dev(main, hr0);
     			append_dev(main, t6);
+    			append_dev(main, p0);
+    			append_dev(main, t8);
+    			append_dev(main, p1);
+    			append_dev(main, t10);
+    			append_dev(main, p2);
+    			append_dev(main, t12);
+    			append_dev(main, h31);
+    			append_dev(main, t14);
+    			append_dev(main, hr1);
+    			append_dev(main, t15);
+
+    			for (let i = 0; i < each_blocks_3.length; i += 1) {
+    				each_blocks_3[i].m(main, null);
+    			}
+
+    			append_dev(main, t16);
+    			append_dev(main, h32);
+    			append_dev(main, t18);
+    			append_dev(main, hr2);
+    			append_dev(main, t19);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				each_blocks_2[i].m(main, null);
+    			}
+
+    			append_dev(main, t20);
+    			append_dev(main, h33);
+    			append_dev(main, t22);
+    			append_dev(main, hr3);
+    			append_dev(main, t23);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].m(main, null);
     			}
 
-    			append_dev(main, t7);
-    			append_dev(main, h31);
-    			append_dev(main, t9);
-    			append_dev(main, hr1);
-    			append_dev(main, t10);
+    			append_dev(main, t24);
+    			append_dev(main, h34);
+    			append_dev(main, t26);
+    			append_dev(main, hr4);
+    			append_dev(main, t27);
+    			append_dev(main, ul);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(main, null);
+    				each_blocks[i].m(ul, null);
     			}
 
-    			append_dev(main, t11);
-    			append_dev(main, h32);
-    			append_dev(main, t13);
-    			append_dev(main, hr2);
-    			append_dev(main, t14);
-    			append_dev(main, p0);
-    			append_dev(p0, t15);
-    			append_dev(p0, br);
-    			append_dev(p0, t16);
-    			append_dev(main, t17);
-    			append_dev(main, p1);
+    			append_dev(main, t28);
+    			append_dev(main, h35);
+    			append_dev(main, t30);
+    			append_dev(main, hr5);
+    			append_dev(main, t31);
+    			append_dev(main, p3);
+    			append_dev(p3, t32);
+    			append_dev(p3, br);
+    			append_dev(p3, t33);
+    			append_dev(main, t34);
+    			append_dev(main, p4);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*CV*/ 0) {
-    				each_value_1 = CV.Positions;
+    				each_value_3 = CV.Positions;
+    				validate_each_argument(each_value_3);
+    				let i;
+
+    				for (i = 0; i < each_value_3.length; i += 1) {
+    					const child_ctx = get_each_context_3(ctx, each_value_3, i);
+
+    					if (each_blocks_3[i]) {
+    						each_blocks_3[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_3[i], 1);
+    					} else {
+    						each_blocks_3[i] = create_each_block_3(child_ctx);
+    						each_blocks_3[i].c();
+    						transition_in(each_blocks_3[i], 1);
+    						each_blocks_3[i].m(main, t16);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_3.length; i < each_blocks_3.length; i += 1) {
+    					out(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty & /*assignments*/ 1) {
+    				each_value_2 = /*assignments*/ ctx[0];
+    				validate_each_argument(each_value_2);
+    				let i;
+
+    				for (i = 0; i < each_value_2.length; i += 1) {
+    					const child_ctx = get_each_context_2(ctx, each_value_2, i);
+
+    					if (each_blocks_2[i]) {
+    						each_blocks_2[i].p(child_ctx, dirty);
+    						transition_in(each_blocks_2[i], 1);
+    					} else {
+    						each_blocks_2[i] = create_each_block_2(child_ctx);
+    						each_blocks_2[i].c();
+    						transition_in(each_blocks_2[i], 1);
+    						each_blocks_2[i].m(main, t20);
+    					}
+    				}
+
+    				group_outros();
+
+    				for (i = each_value_2.length; i < each_blocks_2.length; i += 1) {
+    					out_1(i);
+    				}
+
+    				check_outros();
+    			}
+
+    			if (dirty & /*volunteerAssignments*/ 2) {
+    				each_value_1 = /*volunteerAssignments*/ ctx[1];
     				validate_each_argument(each_value_1);
     				let i;
 
@@ -1602,21 +2077,21 @@ var app = (function () {
     						each_blocks_1[i] = create_each_block_1(child_ctx);
     						each_blocks_1[i].c();
     						transition_in(each_blocks_1[i], 1);
-    						each_blocks_1[i].m(main, t7);
+    						each_blocks_1[i].m(main, t24);
     					}
     				}
 
     				group_outros();
 
     				for (i = each_value_1.length; i < each_blocks_1.length; i += 1) {
-    					out(i);
+    					out_2(i);
     				}
 
     				check_outros();
     			}
 
     			if (dirty & /*CV*/ 0) {
-    				each_value = CV.Assignments;
+    				each_value = CV.Links;
     				validate_each_argument(each_value);
     				let i;
 
@@ -1625,54 +2100,62 @@ var app = (function () {
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
-    						transition_in(each_blocks[i], 1);
     					} else {
     						each_blocks[i] = create_each_block$2(child_ctx);
     						each_blocks[i].c();
-    						transition_in(each_blocks[i], 1);
-    						each_blocks[i].m(main, t11);
+    						each_blocks[i].m(ul, null);
     					}
     				}
 
-    				group_outros();
-
-    				for (i = each_value.length; i < each_blocks.length; i += 1) {
-    					out_1(i);
+    				for (; i < each_blocks.length; i += 1) {
+    					each_blocks[i].d(1);
     				}
 
-    				check_outros();
+    				each_blocks.length = each_value.length;
     			}
     		},
     		i: function intro(local) {
     			if (current) return;
 
-    			for (let i = 0; i < each_value_1.length; i += 1) {
-    				transition_in(each_blocks_1[i]);
+    			for (let i = 0; i < each_value_3.length; i += 1) {
+    				transition_in(each_blocks_3[i]);
     			}
 
-    			for (let i = 0; i < each_value.length; i += 1) {
-    				transition_in(each_blocks[i]);
+    			for (let i = 0; i < each_value_2.length; i += 1) {
+    				transition_in(each_blocks_2[i]);
+    			}
+
+    			for (let i = 0; i < each_value_1.length; i += 1) {
+    				transition_in(each_blocks_1[i]);
     			}
 
     			current = true;
     		},
     		o: function outro(local) {
+    			each_blocks_3 = each_blocks_3.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_3.length; i += 1) {
+    				transition_out(each_blocks_3[i]);
+    			}
+
+    			each_blocks_2 = each_blocks_2.filter(Boolean);
+
+    			for (let i = 0; i < each_blocks_2.length; i += 1) {
+    				transition_out(each_blocks_2[i]);
+    			}
+
     			each_blocks_1 = each_blocks_1.filter(Boolean);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				transition_out(each_blocks_1[i]);
     			}
 
-    			each_blocks = each_blocks.filter(Boolean);
-
-    			for (let i = 0; i < each_blocks.length; i += 1) {
-    				transition_out(each_blocks[i]);
-    			}
-
     			current = false;
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(main);
+    			destroy_each(each_blocks_3, detaching);
+    			destroy_each(each_blocks_2, detaching);
     			destroy_each(each_blocks_1, detaching);
     			destroy_each(each_blocks, detaching);
     		}
@@ -1706,6 +2189,8 @@ var app = (function () {
     	CV.Assignments.sort((x, y) => sortDelegate(x, y));
 
     	CV.Positions.sort((x, y) => sortDelegate(x, y));
+    	const assignments = CV.Assignments.filter(a => a.meta.origin !== "Volunteer");
+    	const volunteerAssignments = CV.Assignments.filter(a => a.meta.origin === "Volunteer");
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -1714,8 +2199,17 @@ var app = (function () {
 
     	let { $$slots = {}, $$scope } = $$props;
     	validate_slots("App", $$slots, []);
-    	$$self.$capture_state = () => ({ CV, Assignment, Position, sortDelegate });
-    	return [];
+
+    	$$self.$capture_state = () => ({
+    		CV,
+    		Assignment,
+    		Position,
+    		sortDelegate,
+    		assignments,
+    		volunteerAssignments
+    	});
+
+    	return [assignments, volunteerAssignments];
     }
 
     class App extends SvelteComponentDev {
