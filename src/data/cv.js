@@ -308,6 +308,33 @@ export const CV = {
       ],
     },
   ],
+  Links: [
+    {
+      url: 'https://github.com/alexanderczigler',
+      title: 'GitHub Profile',
+      type: 'presence',
+    },
+    {
+      url: 'https://iteam.se/medarbetare/acr',
+      title: 'Iteam Solutions',
+      type: 'presence',
+    },
+    {
+      url: 'https://www.goodreads.com/review/list/53571813-alexander?shelf=read',
+      title: 'Goodreads',
+      type: 'presence',
+    },
+    {
+      url: 'http://www.ahousestockholm.com/ai-billgren-talk-with-christian-landgren/',
+      title: 'AI-Billgren',
+      type: 'mention',
+    },
+    {
+      url: 'https://egendata.se/om-oss/',
+      title: 'Egendata',
+      type: 'mention',
+    },
+  ],
   Positions: [
     {
       meta: {
