@@ -19,6 +19,9 @@
 	// Order assignments and positions by start year.
 	CV.Assignments.sort((x, y) => sortDelegate(x, y))
 	CV.Positions.sort((x, y) => sortDelegate(x, y))
+
+	const assignments = CV.Assignments.filter(a => a.meta.origin !== 'Volunteer')
+	const volunteerAssignments = CV.Assignments.filter(a => a.meta.origin === 'Volunteer')
 </script>
 
 <main>
@@ -34,7 +37,13 @@
 
 	<h3>Assignments</h3>
 	<hr />
-  {#each CV.Assignments as assignment}
+  {#each assignments as assignment}
+    <Assignment assignment={assignment} />
+  {/each}
+
+	<h3>Volunteering</h3>
+	<hr />
+  {#each volunteerAssignments as assignment}
     <Assignment assignment={assignment} />
   {/each}
 

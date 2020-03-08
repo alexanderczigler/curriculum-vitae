@@ -2,6 +2,156 @@ export const CV = {
   Assignments: [
     {
       meta: {
+        customer: 'Sound-Ideas',
+        origin: 'Iteam',
+        body: 'Development/maintenance of Sound-Ideas’ e-commerce platforms (StockMusic.com and WestarMusic.com) where they sell audio and sound effects for use on radio, television etc. ',
+        start: 2013,
+        end: 2018,
+      },
+      tags: [
+        '.NET',
+        'SQL Server',
+        'Windows Server',
+        'audio conversion',
+        'ffmpeg',
+        'ecommerce',
+      ],
+    },
+    {
+      meta: {
+        customer: 'TRR Trygghetsrådet/Startkraft',
+        origin: 'Iteam',
+        body: 'Developer and responsible for a web based system where available jobs are matched with job seeking clients at Trygghetsrådet and Startkraft. Moved code from TFS to self-hosted GIT and TeamCity.',
+        start: 2013,
+        end: 2015,
+      },
+      tags: [
+        '.NET',
+        'ElasticSearch',
+        'AngularJS',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Urban Girls Movement',
+        origin: 'Volunteer',
+        body: 'I helped UGM by exporting their Minecraft model of Fittja Centrum for Sketchfab and 3D printing.',
+        start: 2019,
+        end: 2019,
+      },
+      tags: [
+        '.NET',
+        'ElasticSearch',
+        'AngularJS',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Refugee Tech',
+        origin: 'Volunteer',
+        body: 'Starting at a hackathon that Refugee Tech held me and a few coworkers created “Competency”. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden. The data is meant to be used to show meda, politicians and the Swedish population that refugees have a lot of competence and talent that Sweden should utilize. In conjunction with a job search engine it can also be used to match individuals with available jobs and employers looking for talent. Thanks to the efforts of me and the team, Competency later evolved into JobSkills - jobskills.se',
+        start: 2016,
+        end: 2017,
+      },
+      tags: [
+        '.NET',
+        'ElasticSearch',
+        'AngularJS',
+      ],
+    },
+    {
+      meta: {
+        customer: '',
+        origin: 'Freelance',
+        body: 'During these years I did various small projects, some free and some paid. The majority of them consisted of web design and simple static or dynamic web sites. In addition to that I also setup and hosted various types of servers, including web and chat servers.',
+        start: 2003,
+        end: 2010,
+      },
+      tags: [
+        'freebsd',
+        'linux',
+        'windows server',
+        'apache',
+        'nginx',
+        'ircd',
+        'jabberd',
+        'ftpd',
+        'web design',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Getinge',
+        origin: 'Pdb',
+        body: 'Development of reports and a system for calculating prices on Getinge\'s spare parts with regard to their accessibility on the market.',
+        start: 2008,
+        end: 2010,
+      },
+      tags: [
+        '.NET',
+        'Lawson M3',
+        'DataSet Vision',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Atlas Copco',
+        origin: 'Pdb',
+        body: 'Development of various smaller BI applications and data warehousing.',
+        start: 2008,
+        end: 2010,
+      },
+      tags: [
+        'DataSet Vision',
+        'SQL Server',
+        'Lawson M3',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Panasonic Europe',
+        origin: 'Pdb',
+        body: 'Development/maintenance of Pansonic\'s B2B webshops.',
+        start: 2009,
+        end: 2010,
+      },
+      tags: [
+        '.NET',
+        'ecommerce',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Panasonic Nordic',
+        origin: 'Pdb',
+        body: 'Development of a forecast/budget tool used by Panasonic\'s backoffice.',
+        start: 2009,
+        end: 2010,
+      },
+      tags: [
+        '.NET',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Dovado',
+        origin: 'Pdb',
+        body: 'Development of the linux-based Dovado routers that supported 3G USB dongles used by various Swedish operators.',
+        start: 2008,
+        end: 2008,
+      },
+      tags: [
+        'linux',
+        'embedded',
+        'shell',
+        'ash',
+        'busybox',
+        'usb',
+        '3g',
+      ],
+    },
+    {
+      meta: {
         customer: 'TV4 Gruppen',
         origin: 'Mogul',
         body: 'I was part of a team repsonsible for development and maintenance of TV4\'s sales support system "L4".',
@@ -214,6 +364,26 @@ export const CV = {
       tags: [
         'development',
         'business intelligence',
+      ],
+    },
+
+    {
+      meta: {
+        employer: 'Freelance',
+        title: 'Developer/Tech',
+        body: 'From the time I was in high school and until around 2010 I did various gigs ranging from web design to server setup and hosting. This is a time when I learned a lot about linux/unix and networking. Some of the gigs I did consisted of web design and lighter php development.',
+        start: 2003,
+        end: 2010,
+      },
+      location: {
+        city: 'Stockholm',
+        country: 'Sweden',
+      },
+      tags: [
+        'linux',
+        'freebsd',
+        'networking',
+        'web design',
       ],
     },
   ],
