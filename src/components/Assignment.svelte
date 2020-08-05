@@ -14,7 +14,7 @@
   }
 
   span.time {
-    color: var(--keppel);
+    color: var(--myrtle);
     font-weight: 100;
     vertical-align: top;
     width: 10em;
