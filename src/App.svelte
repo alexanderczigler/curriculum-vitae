@@ -7,16 +7,9 @@
 <style>
   main {
     background-color: var(--white);
-    border-radius: 3px;
-    max-width: 240px;
+    box-shadow: 0 4px 8px 0 var(--myrtle), 0 6px 20px 0 var(--myrtle);
+    max-width: 1000px;
     padding-bottom: 2em;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: 1000px;
-      box-shadow: 0 4px 8px 0 var(--myrtle), 0 6px 20px 0 var(--myrtle);
-    }
   }
 </style>
 

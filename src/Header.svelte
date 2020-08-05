@@ -32,6 +32,25 @@
       border-width: 0;
     }
   }
+
+  @media (max-width: 640px) {
+    div.section {
+      display: block;
+      text-align: center;
+    }
+
+    span {
+      text-align: center;
+    }
+
+    img {
+      margin-top: 4em;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  }
 </style>
 
 <div class="section">
