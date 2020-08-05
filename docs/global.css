@@ -99,3 +99,9 @@ div.body {
     width: inherit;
   }
 }
+
+@media (max-width: 640px) {
+  div.body {
+    margin: 4em 1em 1em 1em;
+  }
+}
