@@ -25,33 +25,46 @@
 
 <div class="section body">
   <h3>Curriculum Vitae</h3>
-
   <p>
-    My career is characterized by learning and diversity. I have had the
+    My career is characterized by diversity and learning. I have had the
     opportunity to work on several different projects and taking on different
-    roles in many of them. Each one has taught me something and I have met a lot
-    of intelligent and inspiring people along the way, enabling me to learn and
-    grow as a consultant and as a person.
+    roles in many of them. Each one has taught me something valuable and I have
+    met a lot of intelligent and inspiring people along the way.
   </p>
-
   <p>
-    My current goals are learning more about mentoring, group psychology and
-    interview technique. I want to take on more assignments in the role of agile
-    coach and also further explore UX Research.
+    Some of my current goals in life include learning more about mentoring,
+    group psychology and interview technique. From my experience, in order for
+    an IT project to succeed, team members need to have empathy and experience
+    connectedness with each other as well as the end users of their product.
+    This is the reason why I love to keep writing code while also being
+    passionate about learning about the key to creating successful teams,
+    sharing knowledge and understanding users.
   </p>
 
-  <p>I have two firm beliefs:</p>
+  <p>To sum up, I have two firm beliefs about software development:</p>
   <ol>
 
     <li>
-      Developers need to be able to emphatize with their end users to be able to
-      produce the best code.
+      The best code is written by developers who empathize with the end user.
     </li>
     <li>
-      Developers need to be able to write code together to solve the problems of
-      tomorrow.
+      Complex problems are best solved by developers who master cooperation and
+      the sharing of knowledge.
     </li>
   </ol>
+
+  <p>
+    You can some of my work on
+    <a href="https://github.com/alexanderczigler" target="_blank">
+      <i class="fa fa-github" />
+      GitHub
+    </a>
+    and
+    <a href="https://hub.docker.com/u/aczigler" target="_blank">
+      <i class="fab fa-docker" />
+      Docker Hub
+    </a>
+  </p>
 
   <h4>Positions</h4>
   {#each CV.Positions as position}
@@ -64,7 +77,7 @@
   {/each}
 
   <h3 class="no-print">Thank you!</h3>
-  <p class="no-print">Thank you for reading my CV.</p>
+  <p class="no-print">Thank you for reading my website.</p>
   <p class="no-print">
     Hint: On most computers you can save my CV as a PDF via your regular
     printing dialogue.

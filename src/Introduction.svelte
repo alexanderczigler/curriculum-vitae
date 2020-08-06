@@ -1,20 +1,35 @@
 <div class="section body">
   <h3>Hello!</h3>
   <p>
-    We are at the golden age of team efficiency. I firmly believe that companies
-    who want to thrive in the future need to make their employees experts at
-    cooperation and autonomy.
+    My name is Alexander and I live in Stockholm, Sweden. I work as an IT
+    consultant mainly focusing on agile development and agile
+    coaching/mentoring.
+  </p>
+
+  <h4>About me</h4>
+  <p>
+    Whenever I am not sitting in front of a computer I love spending time
+    outdoors, either exploring the city or hiking along one of the many
+    beautiful trails outside of Stockholm. I also love exercising
+    (poledance/running/yoga) and reading books.
   </p>
   <p>
-    This is where I come in; I love using my technical experience to help
-    improve the culture and way of working. My specialty is meshing into
-    existing teams and taking a blended role helping out where I am needed most
-    from day to day; be it pair-programming, agile coaching or UX research.
-  </p>
-  <p>
-    My long background as a system developer has given me a lot of insights as
-    to why so many IT projects fail. I am a great addition to any team that
-    wants to identify bottlenecks, have fun and learn the ways of DevOps
-    Thinking and Lean UX.
+    You can find me on
+    <a
+      href="https://www.goodreads.com/user/show/53571813-alexander-czigler"
+      target="_blank">
+      <i class="fa fa-book" />
+      Goodreads,
+    </a>
+
+    <a href="https://www.strava.com/athletes/60476104" target="_blank">
+      <i class="fa fa-stopwatch" />
+      Strava
+    </a>
+    and
+    <a href="https://500px.com/alexanderczigler" target="_blank">
+      <i class="fa fa-500px" />
+      500px.
+    </a>
   </p>
 </div>

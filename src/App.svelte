@@ -1,6 +1,7 @@
 <script>
   import CV from './CV.svelte'
   import Header from './Header.svelte'
+  import Footer from './Footer.svelte'
   import Introduction from './Introduction.svelte'
 </script>
 
@@ -17,4 +18,5 @@
   <Header />
   <Introduction />
   <CV />
+  <Footer />
 </main>
