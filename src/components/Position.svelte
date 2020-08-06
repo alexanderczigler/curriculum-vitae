@@ -68,7 +68,9 @@
       <span class="employer">{position.meta.employer}</span>
     </span>
 
-    <span class="body">{position.meta.body}</span>
+    {#each position.meta.body as text}
+      <span class="body">{text}</span>
+    {/each}
 
     <span class="web">
       {#each position.tags as tag}

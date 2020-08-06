@@ -66,7 +66,9 @@
       ({assignment.meta.origin} consultant)
     </span>
 
-    <span class="body">{assignment.meta.body}</span>
+    {#each assignment.meta.body as text}
+      <span class="body">{text}</span>
+    {/each}
 
     <span class="web">
       {#each assignment.tags as tag}
