@@ -14,6 +14,10 @@
     margin: 2px 4px 2px 0px;
     padding: 4px 8px;
   }
+
+  i {
+    color: var(--azure);
+  }
 </style>
 
 <div>
