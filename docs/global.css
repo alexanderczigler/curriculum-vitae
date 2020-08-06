@@ -90,13 +90,30 @@ div.body {
 }
 
 @media print {
-  .no-print {
+  .web {
     display: none;
   }
 
   div.body {
     margin: 4em 4em 2em 2em;
     width: inherit;
+  }
+
+  h3,
+  h4 {
+    margin-top: 1em;
+  }
+
+  p {
+    margin-bottom: 1em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    color: #000000;
   }
 }
 
