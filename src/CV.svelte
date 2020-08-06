@@ -76,10 +76,14 @@
     <Assignment {assignment} />
   {/each}
 
-  <h3 class="web">Thank you!</h3>
-  <p class="web">Thank you for reading my website.</p>
+  <h3>Other information</h3>
+  <p>
+    I am a Swedish citizen and my native tounge is Swedish. I may be available
+    for consultancy assignments. If you wish to get in touch with me, I prefer
+    if you send me a text message on +46727145060.
+  </p>
   <p class="web">
-    Hint: On most computers you can save my CV as a PDF via your regular
-    printing dialogue.
+    Hint: I have added a print css so that you can save my CV as a PDF (or print
+    it) via your regular printing dialogue.
   </p>
 </div>
