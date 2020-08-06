@@ -42,6 +42,16 @@
     padding-bottom: 10px;
     display: block;
   }
+
+  @media print {
+    span.information {
+      margin-bottom: 0.5em;
+    }
+
+    span.time {
+      color: #000000;
+    }
+  }
 </style>
 
 <div class="assignment">
@@ -58,7 +68,7 @@
 
     <span class="body">{assignment.meta.body}</span>
 
-    <span class="no-print">
+    <span class="web">
       {#each assignment.tags as tag}
         <Tag {tag} />
       {/each}

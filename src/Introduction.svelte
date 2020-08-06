@@ -13,7 +13,7 @@
     beautiful trails outside of Stockholm. I also love exercising
     (poledance/running/yoga) and reading books.
   </p>
-  <p>
+  <p class="web">
     You can find me on
     <a
       href="https://www.goodreads.com/user/show/53571813-alexander-czigler"

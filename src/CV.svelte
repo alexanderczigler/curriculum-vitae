@@ -53,7 +53,7 @@
     </li>
   </ol>
 
-  <p>
+  <p class="web">
     You can some of my work on
     <a href="https://github.com/alexanderczigler" target="_blank">
       <i class="fa fa-github" />
@@ -76,9 +76,9 @@
     <Assignment {assignment} />
   {/each}
 
-  <h3 class="no-print">Thank you!</h3>
-  <p class="no-print">Thank you for reading my website.</p>
-  <p class="no-print">
+  <h3 class="web">Thank you!</h3>
+  <p class="web">Thank you for reading my website.</p>
+  <p class="web">
     Hint: On most computers you can save my CV as a PDF via your regular
     printing dialogue.
   </p>

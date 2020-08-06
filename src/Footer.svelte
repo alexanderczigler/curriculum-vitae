@@ -6,7 +6,7 @@
   }
 </style>
 
-<div class="section body">
+<div class="section body web">
   <hr />
   <p>Alexander Matthias Czigler 2020</p>
   <p>

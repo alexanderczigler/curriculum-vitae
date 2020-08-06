@@ -43,6 +43,16 @@
     padding-bottom: 10px;
     display: block;
   }
+
+  @media print {
+    span.information {
+      margin-bottom: 0.5em;
+    }
+
+    span.time {
+      color: #000000;
+    }
+  }
 </style>
 
 <div class="position">
@@ -60,7 +70,7 @@
 
     <span class="body">{position.meta.body}</span>
 
-    <span class="no-print">
+    <span class="web">
       {#each position.tags as tag}
         <Tag {tag} />
       {/each}

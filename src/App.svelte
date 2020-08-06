@@ -12,6 +12,13 @@
     max-width: 1000px;
     padding-bottom: 2em;
   }
+
+  @media print {
+    main {
+      background-color: var(--white);
+      box-shadow: none;
+    }
+  }
 </style>
 
 <main>

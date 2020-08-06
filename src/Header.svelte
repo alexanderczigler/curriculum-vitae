@@ -31,6 +31,15 @@
     div.section {
       border-width: 0;
     }
+
+    img {
+      border-width: 0;
+    }
+
+    h1,
+    h2 {
+      color: #000000;
+    }
   }
 
   @media (max-width: 640px) {
