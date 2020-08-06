@@ -62,17 +62,17 @@ h4 {
 }
 
 a {
-  color: rgba(62, 201, 255, 1);
+  color: var(--keppel);
   text-decoration: none;
 }
 
 a:hover {
-  background-color: rgba(240, 240, 240, 1);
+  background-color: var(--azure);
   text-decoration: underline;
 }
 
 a:visited {
-  color: rgba(62, 201, 255, 1);
+  color: var(--myrtle);
 }
 
 div.section {
