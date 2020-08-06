@@ -83,7 +83,7 @@
     if you send me a text message on +46727145060.
   </p>
   <p class="web">
-    Hint: I have added a print css so that you can save my CV as a PDF (or print
-    it) via your regular printing dialogue.
+    Hint: I have added a print css so that you can save my CV as a neat PDF (or
+    print it) via your regular printing dialogue.
   </p>
 </div>
