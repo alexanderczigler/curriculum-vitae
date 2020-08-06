@@ -5,8 +5,8 @@ export const CV = {
         customer: 'Sound-Ideas',
         origin: 'Iteam',
         body: [
-          'Sound-Ideas run the websites StockMusic.com and WestarMusic.com where they sell royalty-free audio.',
-          'During the years I worked with Sound-Ideas my role included maintaining and expanding the functionality of the websites, SQL Server database, Windows Servers and PayPal integration.',
+          'During the years I worked with Sound-Ideas my role included maintaining and expanding the functionality of the StockMusic.com website, SQL Server database, Windows Servers and PayPal integration.',
+          'The website is an increasingly important sales channel for the royalty-free music and audio effects that Sound-Ideas produce and sell.',
         ],
         start: 2013,
         end: 2018,
@@ -39,7 +39,8 @@ export const CV = {
         customer: 'Urban Girls Movement',
         origin: 'Iteam',
         body: [
-          'Urban Girls Movement ran a project where they let girls remodel their neighbourhood to make it nicer and safer. They used Minecraft for this and I helped export their Minecraft model of the neighbourhood, Fittja Centrum outside Stockholm, so that it could be embedded on the web (via Sketchfab) and for 3D printing.',
+          'Urban Girls Movement ran a project where they let girls remodel their neighbourhood, Fittja Centrum, to make it feel nicer and safer.',
+          'I helped export their Minecraft model of the neighbourhood so that it could be embedded on the web (via Sketchfab) and for 3D printing. The exports were used for their exhibit in 2019.',
         ],
         start: 2019,
         end: 2019,
@@ -63,7 +64,8 @@ export const CV = {
         customer: '(Various)',
         origin: 'Freelance',
         body: [
-          'During these years I did various small projects, some free and some paid. The majority of them consisted of web design and simple static or dynamic web sites. In addition to that I also setup and hosted various types of servers, including web and chat servers.',
+          'During these years I worked on various small projects, some free and some paid. I learned the basics of writing html and designing for the web and I learned a lot about networking and setting up different types of servers under linux, freebsd and Windows.',
+          'In most of the paid projects I designed simple websites and delivered the necessary html and css to the customer so they could fill it with content and deploy it. For some projects I also wrote some php code and integrated with MySQL.',
         ],
         start: 2003,
         end: 2010,
@@ -78,6 +80,8 @@ export const CV = {
         'jabberd',
         'ftpd',
         'web design',
+        'php',
+        'mysql',
       ],
     },
     {
@@ -85,7 +89,8 @@ export const CV = {
         customer: 'Getinge',
         origin: 'Pdb',
         body: [
-          "Development of reports and a system for calculating prices on Getinge's spare parts with regard to their accessibility on the market.",
+          'At Getinge I worked on a system for managing after market prices on their spare parts. I helped develop and maintain this system and in addition to that I also worked with DataSet Vision to visualise data and trends from data in their Lawson M3.',
+          'The solutions I worked on helps them make better decisions, such as knowing which spare parts they can sell for a profit and which ones are readily available from competitors.',
         ],
         start: 2008,
         end: 2010,
@@ -97,7 +102,8 @@ export const CV = {
         customer: 'Atlas Copco',
         origin: 'Pdb',
         body: [
-          'Development of various smaller BI applications and data warehousing.',
+          'At Atlas Copco I development various small BI applications using DataSet Vision, SQL Server and some lighter .NET code.',
+          'The solutions I worked on helps Atlas Copco make better decisions by visualising trends in their own data.',
         ],
         start: 2008,
         end: 2010,
@@ -108,30 +114,35 @@ export const CV = {
       meta: {
         customer: 'Panasonic Europe',
         origin: 'Pdb',
-        body: ["Development/maintenance of Pansonic's B2B webshops."],
+        body: [
+          "I was part of a team responsible for maintenance of Pansonic's European B2B webshops. The code we worked on was built with .NET and the system integrated with SAP that owned all the product and price data.",
+          "The B2B webshops were used by several large-scale retailers around Europe and a large chunk of Panasonic's yearly profits run through them.",
+        ],
         start: 2009,
         end: 2010,
       },
-      tags: ['.NET', 'ecommerce'],
+      tags: ['.NET', 'ecommerce', 'SAP'],
     },
     {
       meta: {
         customer: 'Panasonic Nordic',
         origin: 'Pdb',
         body: [
-          "Development of a forecast/budget tool used by Panasonic's backoffice.",
+          'At Panasonic Nordic I was part of a team that built a tool used for sales budgeting and forecasting. The system helps Panasonic Nordic analyse sales and make predictions in order to optimise warehousing and distribution of their products.',
         ],
         start: 2009,
         end: 2010,
       },
-      tags: ['.NET'],
+      tags: ['.NET', 'SQL Server'],
     },
     {
       meta: {
         customer: 'Dovado',
         origin: 'Pdb',
         body: [
-          'Development of the linux-based Dovado routers that supported 3G USB dongles used by various Swedish operators.',
+          'When 3G was a new thing, Dovado were very early offering a network router that supported USB modems. This router enabled customers to connect several computers and devices to a Wi-Fi that in turn shared a single 3G internet connection.',
+          'During my time at Dovado I helped them study how different 3G USB dongles behaved when connected to their router. I wrote and optimised the scripts that would detect specific dongles and make them switch to modem mode and connect to the internet.',
+          'This project was super fun and I learned a lot about linux, embedded linux and shell scripting.',
         ],
         start: 2008,
         end: 2008,
@@ -144,6 +155,7 @@ export const CV = {
         origin: 'Mogul',
         body: [
           'I was part of a team repsonsible for development and maintenance of TV4\'s sales support system "L4".',
+          'This system is used by the entire sales force of TV4, with users all over Sweden. It handles the sales, budgeting and forecasting of advertisement sales for all of their channels.',
         ],
         start: 2010,
         end: 2013,
