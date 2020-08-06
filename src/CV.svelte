@@ -54,7 +54,7 @@
   </ol>
 
   <p class="web">
-    You can some of my work on
+    You can find some of my work on
     <a href="https://github.com/alexanderczigler" target="_blank">
       <i class="fa fa-github" />
       GitHub
