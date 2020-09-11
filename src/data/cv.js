@@ -208,7 +208,9 @@ export const CV = {
         customer: 'TRR Trygghetsrådet',
         origin: 'Iteam',
         body: [
-          'Helping TRR understand their role in the Swedish job market and how they can maximize their impact and presence among their customers. I work with UX research, planning and participating in design sprints as well as doing interviews with customers to gather qualitative data.',
+          'As a UX Researcher at TRR Trygghetsrådet I have been helping them to understand their role in the Swedish job market and how to maximize their impact. I was a part of a team that worked on developing a new customer portal and my role was to gain understanding and important insights from their customers.',
+          'My work included acting as a bridge between the core organisation and the developers in our team. I planned and conducted interviews with HR personnel in various small and large organisations around Sweden. After the interviews I aggregated the findings and presented them to my team and stakeholders.',
+          'I also assisted in facilitating workshops such as design sprints and user story mapping.',
         ],
         start: 2019,
         end: 2020,
