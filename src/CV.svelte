@@ -27,9 +27,9 @@
   <h3>Curriculum Vitae</h3>
   <p>
     My career is characterized by diversity and learning. I have had the
-    opportunity to work on several different projects and taking on different
-    roles in many of them. Each one has taught me something valuable and I have
-    met a lot of intelligent and inspiring people along the way.
+    opportunity to work on several different projects taking on different roles
+    in many of them. Each one has taught me something valuable and I have met a
+    lot of intelligent and inspiring people along the way.
   </p>
   <p>
     Some of my current goals in life include learning more about mentoring,
