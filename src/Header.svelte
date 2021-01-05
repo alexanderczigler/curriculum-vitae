@@ -67,7 +67,7 @@
   <span>
     <h1>Alexander M. Czigler</h1>
     <h2>
-      Code, DevOps and NoEstimates Mentor
+      Working with Code, Culture and UX at
       <span class="weak">at</span>
       Iteam Solutions
     </h2>

@@ -2,29 +2,24 @@
   <h3>Hello!</h3>
   <p>
     My name is Alexander and I live in Stockholm, Sweden. I work as an IT
-    consultant mainly focusing on agile development and agile
+    consultant mainly focusing on system development and agile
     coaching/mentoring.
   </p>
 
   <h4>About me</h4>
   <p>
-    Whenever I am not sitting in front of a computer I love spending time
-    outdoors, either exploring the city or hiking along one of the many
-    beautiful trails outside of Stockholm. I also love exercising
-    (poledance/running/yoga) and reading books.
+    Whenever I am not sitting in front of a computer I love exercising and
+    spending time outdoors. I enjoy exploring the city by foot and one of my
+    long term goals is to walk each of the hiking trails around Stockholm.
   </p>
   <p class="web">
-    You can find me on
+    I also enjoy reading books for learning and for pleasure. If you are curious
+    about the kind of books I read you can find me on
     <a
       href="https://www.goodreads.com/user/show/53571813-alexander-czigler"
       target="_blank">
       <i class="fa fa-book" />
       Goodreads
-    </a>
-    and
-    <a href="https://www.strava.com/athletes/60476104" target="_blank">
-      <i class="fa fa-stopwatch" />
-      Strava
     </a>
     .
   </p>
