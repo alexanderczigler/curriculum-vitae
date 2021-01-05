@@ -9,10 +9,7 @@
 <div class="section body web">
   <hr />
   <p>
-    Alexander Matthias Czigler 2020 |
-    <a href="https://500px.com/alexanderczigler" target="_blank">
-      <i class="fa fa-500px" />
-    </a>
+    Alexander Matthias Czigler 2021 |
     <a href="https://github.com/alexanderczigler" target="_blank">
       <i class="fa fa-github" />
     </a>

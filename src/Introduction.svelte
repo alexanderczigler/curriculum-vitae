@@ -19,17 +19,13 @@
       href="https://www.goodreads.com/user/show/53571813-alexander-czigler"
       target="_blank">
       <i class="fa fa-book" />
-      Goodreads,
+      Goodreads
     </a>
-
+    and
     <a href="https://www.strava.com/athletes/60476104" target="_blank">
       <i class="fa fa-stopwatch" />
       Strava
     </a>
-    and
-    <a href="https://500px.com/alexanderczigler" target="_blank">
-      <i class="fa fa-500px" />
-      500px.
-    </a>
+    .
   </p>
 </div>
