@@ -2,6 +2,38 @@ export const CV = {
   Assignments: [
     {
       meta: {
+        customer: 'Predictive Movement',
+        origin: 'Iteam',
+        body: [
+          'I coordinate user testing and interviews as well as ensure that research and development of the PM platform is done in a user-centric manner.',
+          'In this project we are developing sustainable solutions for cargo and passenger transports in the rural parts of Sweden.',
+        ],
+        start: 2020,
+      },
+      tags: [
+        'user research',
+        'figma',
+        'ux',
+      ],
+    },
+    {
+      meta: {
+        customer: 'Göteborgsregionen',
+        origin: 'Iteam',
+        body: [
+          'I am part of a team developing functionality allowing schools in and around Göteborg to order and distribute digital educational material.',
+          'Because the users of the system we are building represent a large chunk of all schools in Sweden our goal is also to produce an API standard for the interchange of licensing information between publishers and consumers.',
+        ],
+        start: 2020,
+      },
+      tags: [
+        'microsoft .net',
+        'sql server',
+        'microservie architecture',
+      ],
+    },
+    {
+      meta: {
         customer: 'Sound-Ideas',
         origin: 'Iteam',
         body: [
