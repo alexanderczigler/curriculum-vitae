@@ -349,6 +349,38 @@ var app = (function () {
       Assignments: [
         {
           meta: {
+            customer: 'Predictive Movement',
+            origin: 'Iteam',
+            body: [
+              'I coordinate user testing and interviews as well as ensure that research and development of the PM platform is done in a user-centric manner.',
+              'In this project we are developing sustainable solutions for cargo and passenger transports in the rural parts of Sweden.',
+            ],
+            start: 2020,
+          },
+          tags: [
+            'user research',
+            'figma',
+            'ux',
+          ],
+        },
+        {
+          meta: {
+            customer: 'Göteborgsregionen',
+            origin: 'Iteam',
+            body: [
+              'I am part of a team developing functionality allowing schools in and around Göteborg to order and distribute digital educational material.',
+              'Because the users of the system we are building represent a large chunk of all schools in Sweden our goal is also to produce an API standard for the interchange of licensing information between publishers and consumers.',
+            ],
+            start: 2020,
+          },
+          tags: [
+            'microsoft .net',
+            'sql server',
+            'microservie architecture',
+          ],
+        },
+        {
+          meta: {
             customer: 'Sound-Ideas',
             origin: 'Iteam',
             body: [
@@ -399,7 +431,9 @@ var app = (function () {
             customer: 'Refugee Tech',
             origin: 'Volunteer',
             body: [
-              'Starting at a hackathon that Refugee Tech held me and a few coworkers created “Competency”. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden. The data is meant to be used to show meda, politicians and the Swedish population that refugees have a lot of competence and talent that Sweden should utilize. In conjunction with a job search engine it can also be used to match individuals with available jobs and employers looking for talent. Thanks to the efforts of me and the team, Competency later evolved into JobSkills - jobskills.se',
+              'Starting at a hackathon that Refugee Tech held me and a few coworkers created “Competency”. The idea of the project is to map the competencies of refugees on their way to or already living in Sweden.',
+              'The data is meant to show media, politicians and the Swedish population that refugees have a lot of competence and talent that Sweden should utilize. In conjunction with a job search engine it can also be used to match individuals with available jobs and employers looking for talent.',
+              'Thanks to the efforts of me and the team, Competency later evolved into JobSkills - jobskills.se',
             ],
             start: 2016,
             end: 2017,
@@ -533,7 +567,9 @@ var app = (function () {
             customer: 'V3VO - Vertical Evolution',
             origin: 'Iteam',
             body: [
-              'Architecture and development of a REST API from scratch. The API serves as backend to V3VO’s apps/web applications and holds customer data, business logic and JWT-validation. The solution is orchestrated using kubernetes where the API, PostgreSQL and web applications are run and monitored. User authentication is done using Auth0 (JWKS).',
+              'I was part of a kanban team that developed a new gamified iOS/Android app from scratch and released an MVP in about three months.',
+              'My role was to design and build the backend services as well as making sure that the team was able to build and release features in a smooth and efficient manner. I built a REST API using nodejs and express and using postgres to store persistent data. I used Auth0 to authenticate users and we implemented JWKS in the app as well as the backend.',
+              'Hosting and automated testing and deployment was done using GitHub Actions and docker/kubernetes.',
             ],
             start: 2019,
             end: 2020,
@@ -548,6 +584,7 @@ var app = (function () {
             'auth0',
             'node',
             'jwt',
+            'digital ocean',
           ],
         },
         {
@@ -564,9 +601,11 @@ var app = (function () {
           },
           tags: [
             'ux research',
+            'user interviews',
+            'user research',
             'design sprint',
-            'double diamond',
-            'agile coaching',
+            'user story mapping',
+            'lean ux',
           ],
         },
         {
@@ -574,7 +613,9 @@ var app = (function () {
             customer: 'Motorbranschens Riksförbund',
             origin: 'Iteam',
             body: [
-              'Design, research and development of a new web-based system for workshops repairing cars and billing insurance companies. The challenges of this project include supporting all legal requirements of GDPR, bookkeeping law and building a system with the end user in focus.',
+              'I am helping Motorbranschens Riksförbund to develop and maintain a system that integrates with Swedish insurance companies through their insurance platform CABAS. Our system is used by mechanical and paint workshops to manage billing, damage and insurance information. Some workshops also use it to manage and track their internal time when repairing cars.',
+              'We are supporting an old .NET version of the system while developing a new web based version.. The team is working in a user centric manner where even developers join user interviews and everyone in the team has a firm understanding of the user\'s needs.',
+              'The new solution we are developing is based on nodejs and I have set it up to run automated builds and tests in GitLab. The hosting is done using docker and kubernetes in AWS EKS.',
             ],
             start: 2018,
             end: 2020,
@@ -594,13 +635,17 @@ var app = (function () {
             customer: 'SEB',
             origin: 'Iteam',
             body: [
-              'Technical Advisor & Agile Coach. Working as part of one of SEB’s development teams to learn and teach alongside with their developers and help them overcome organisational obstacles and adopt better ways of working with system development. Working with a cross team implementing Docker Enterprise with Docker for Windows nodes. SEB was one of the first customers to run docker on Windows Server at their scale.',
+              'When I joined SEB in 2017 they had formed a team called SEB Morning with a mission of researching and building a foundation for a new version of their internet based private banking web. This team also had an ambition of finding new ways of working while doing this.',
+              'As a member of this team I mainly focused on two different areas of the work they were doing; the way of working and their code. I helped build a clear understanding of what our MVP would be and what needed to happen both within and outside of the team for it to be released. I also did a lot of pair-programming with their lead developer and their architect to build prototypes for what would later become part of the MVP.',
+              'This team also had a couple of dedicated testers and together we developed a plan to involve them earlier on in the development process. Using BDD methodology we also involved the product owner in writing end-to-end tests.',
+              'My work in this team influenced SEB to become more open to working with open source software and improving developer experience across the bank.',
+              'Apart from this I was also involved in a cross discipline group that was working on implementing Docker Enterprise and Docker for Windows at SEB.',
             ],
             start: 2017,
             end: 2019,
           },
           tags: [
-            '.NET',
+            'Microsoft .NET',
             'dotnet core',
             'javascript',
             'docker',
@@ -617,7 +662,7 @@ var app = (function () {
             customer: 'Uppdragshuset',
             origin: 'Iteam',
             body: [
-              'Technical advisor working closely with two of Uppdragshuset’s senior developers in their initiative to adopt Docker and radically change their development flow.',
+              'Uppdragshuset wanted to look into containerizing their development process and their hosting. I worked closely with two of their developers as they explored the possibilities of using Docker.',
             ],
             start: 2015,
             end: 2016,
@@ -629,7 +674,9 @@ var app = (function () {
             customer: 'Taxi Stockholm AB',
             origin: 'Iteam',
             body: [
-              'Played a role in the creation and setup of TSAB’s cloud orchestrated Docker environment with Docker cloud and Microsoft Azure. Development of data mining and market automation applications using node.js to process and transfer data from MySQL and Oracle DB to no-sql databases (RethinkDB and ElasticSearch). Development of a RESTful API in node.js, integrations with SOAP API:s, Oracle DB and RPC backends.',
+              'Played a role in the creation and setup of TSAB’s cloud orchestrated Docker environment with Docker cloud and Microsoft Azure.',
+              'Development of data mining and market automation applications using node.js to process and transfer data from MySQL and Oracle DB to no-sql databases (RethinkDB and ElasticSearch).',
+              'Development of a RESTful API in node.js, integrations with SOAP API:s, Oracle DB and RPC backends.',
             ],
             start: 2015,
             end: 2017,
@@ -651,7 +698,9 @@ var app = (function () {
             customer: 'Vimla',
             origin: 'Iteam',
             body: [
-              'Developer and technical advisor for Vimla’s website/customer portal (.NET), REST API (nodejs) and community platform (nodebb). Integrations with SOAP APIs, Lithium and payment providers DIBS and Klarna. Moved the project over from TFS to Git and TeamCity, improving the development workflow and ability to handle branches and isolated features. Setup continuous integration workflow from GitHub to Docker Cloud. Responsible for the setup and maintenance of their linux-based servers running Docker.',
+              'Developer and technical advisor for Vimla’s website/customer portal (.NET), REST API (nodejs) and community platform (nodebb).',
+              'Integrations with SOAP APIs, Lithium and payment providers DIBS and Klarna. Moved the project over from TFS to Git and TeamCity, improving the development workflow and ability to handle branches and isolated features. Setup continuous integration workflow from GitHub to Docker Cloud.',
+              'Responsible for the setup and maintenance of their linux-based servers running Docker.',
             ],
             start: 2014,
             end: 2018,
@@ -2428,14 +2477,10 @@ var app = (function () {
     	let t7;
     	let p2;
     	let t8;
-    	let a0;
-    	let i0;
+    	let a;
+    	let i;
     	let t9;
     	let t10;
-    	let a1;
-    	let i1;
-    	let t11;
-    	let t12;
 
     	const block = {
     		c: function create() {
@@ -2444,40 +2489,31 @@ var app = (function () {
     			h3.textContent = "Hello!";
     			t1 = space();
     			p0 = element("p");
-    			p0.textContent = "My name is Alexander and I live in Stockholm, Sweden. I work as an IT\n    consultant mainly focusing on agile development and agile\n    coaching/mentoring.";
+    			p0.textContent = "My name is Alexander and I live in Stockholm, Sweden. I work as an IT\n    consultant mainly focusing on system development and agile\n    coaching/mentoring.";
     			t3 = space();
     			h4 = element("h4");
     			h4.textContent = "About me";
     			t5 = space();
     			p1 = element("p");
-    			p1.textContent = "Whenever I am not sitting in front of a computer I love spending time\n    outdoors, either exploring the city or hiking along one of the many\n    beautiful trails outside of Stockholm. I also love exercising\n    (poledance/running/yoga) and reading books.";
+    			p1.textContent = "Whenever I am not sitting in front of a computer I love exercising and\n    spending time outdoors. I enjoy exploring the city by foot and one of my\n    long term goals is to walk each of the hiking trails around Stockholm.";
     			t7 = space();
     			p2 = element("p");
-    			t8 = text("You can find me on\n    ");
-    			a0 = element("a");
-    			i0 = element("i");
+    			t8 = text("I also enjoy reading books for learning and for pleasure. If you are curious\n    about the kind of books I read you can find me on\n    ");
+    			a = element("a");
+    			i = element("i");
     			t9 = text("\n      Goodreads");
-    			t10 = text("\n    and\n    ");
-    			a1 = element("a");
-    			i1 = element("i");
-    			t11 = text("\n      Strava");
-    			t12 = text("\n    .");
+    			t10 = text("\n    .");
     			add_location(h3, file$6, 1, 2, 29);
     			add_location(p0, file$6, 2, 2, 47);
-    			add_location(h4, file$6, 8, 2, 221);
-    			add_location(p1, file$6, 9, 2, 241);
-    			attr_dev(i0, "class", "fa fa-book");
-    			add_location(i0, file$6, 20, 6, 665);
-    			attr_dev(a0, "href", "https://www.goodreads.com/user/show/53571813-alexander-czigler");
-    			attr_dev(a0, "target", "_blank");
-    			add_location(a0, file$6, 17, 4, 557);
-    			attr_dev(i1, "class", "fa fa-stopwatch");
-    			add_location(i1, file$6, 25, 6, 801);
-    			attr_dev(a1, "href", "https://www.strava.com/athletes/60476104");
-    			attr_dev(a1, "target", "_blank");
-    			add_location(a1, file$6, 24, 4, 727);
+    			add_location(h4, file$6, 8, 2, 222);
+    			add_location(p1, file$6, 9, 2, 242);
+    			attr_dev(i, "class", "fa fa-book");
+    			add_location(i, file$6, 20, 6, 745);
+    			attr_dev(a, "href", "https://www.goodreads.com/user/show/53571813-alexander-czigler");
+    			attr_dev(a, "target", "_blank");
+    			add_location(a, file$6, 17, 4, 637);
     			attr_dev(p2, "class", "web");
-    			add_location(p2, file$6, 15, 2, 514);
+    			add_location(p2, file$6, 14, 2, 482);
     			attr_dev(div, "class", "section body");
     			add_location(div, file$6, 0, 0, 0);
     		},
@@ -2496,14 +2532,10 @@ var app = (function () {
     			append_dev(div, t7);
     			append_dev(div, p2);
     			append_dev(p2, t8);
-    			append_dev(p2, a0);
-    			append_dev(a0, i0);
-    			append_dev(a0, t9);
+    			append_dev(p2, a);
+    			append_dev(a, i);
+    			append_dev(a, t9);
     			append_dev(p2, t10);
-    			append_dev(p2, a1);
-    			append_dev(a1, i1);
-    			append_dev(a1, t11);
-    			append_dev(p2, t12);
     		},
     		p: noop,
     		i: noop,
