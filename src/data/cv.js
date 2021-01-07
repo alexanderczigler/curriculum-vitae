@@ -230,7 +230,6 @@ export const CV = {
       tags: [
         'docker',
         'kubernetes',
-        'openshift',
         'linux',
         'postgresql',
         'expo',
